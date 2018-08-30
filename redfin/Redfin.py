@@ -19,6 +19,7 @@ class Redfin():
         chrome_option.add_argument('--disable-gpu')
         self.driver = webdriver.Chrome(chrome_options=chrome_option)
         self.driver.implicitly_wait(wait)
+        self.log = logging.getLogger('Redfin')
 
     def __del__(self):
         self.driver.close()
@@ -43,13 +44,14 @@ class Redfin():
                 '//span[@itemprop="streetAddress"]')
             result = self.driver.current_url
             self.detail_statu = True
-            logging.debug('---- Property page : %s', result)
+            self.log.debug('---- Property page : %s', result)
             if url:
                 return result
         except NoSuchElementException as e:
-            logging.info('---- No such element')
+            self.log.info('---- No such element for : "%s"', address)
+            return None
         except Exception as e:
-            logging.error('---- Error : %s', e)
+            self.log.error('---- Search Error : %s', e)
             result = 'None'
             if url:
                 return result
@@ -77,11 +79,11 @@ class Redfin():
             listing_detail = sel.xpath(
                 '//div[@class="amenities-container"]//text()').extract()
             result['detail'] = listing_detail
+            result['page_source'] = self.driver.page_source
             self.detail_statu = False
         else:
-            print('---- Detail page not reached')
-            logging.warning(
-                '---- Detail page url not get, use .search() first to get the detail page')
+            self.log.warning(
+                '---- Detail page url out of reach, use .search() first to get the detail page')
         return result
 
 
