@@ -3,6 +3,7 @@ Class to crawl tweets by searchfrom twitter.com
 """
 import logging
 import time
+import random
 from datetime import datetime
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
@@ -30,8 +31,9 @@ class twitterCrawler():
 
     def __del__(self):
         self.driver.close()
+        self.log.debug('---- Driver closed')
 
-    def close(self):
+    def reconnect(self):
         """
         close driver
         """
@@ -39,7 +41,7 @@ class twitterCrawler():
             self.driver.close()
             self.log.info('---- Driver closed')
 
-    def set_search_kw(self, search_kw):
+    def set_search_kw(self, search_kw='healthcare'):
         """
         Set search keywords.
         """
@@ -54,26 +56,25 @@ class twitterCrawler():
         """
         self.log.info('---- Fetching Tweets')
         count = 0
+        scroll_history = 0
         droplist = []
+        successlist = []
         while True:
             tweets = self.driver.find_elements_by_xpath(
-                '//ol[1]/li[@data-item-type="tweet"]')
+                "//li[@class=\"js-stream-item stream-item stream-item\n\"]")
             for idx, tweet in enumerate(tweets):
                 info = {}
-                if tweet not in droplist:
+                if tweet not in droplist and tweet not in successlist:
                     try:
-                        info['_id'] = tweet.get_attribute('data-item-id')
-                        content = tweet.find_element_by_xpath(
-                            '//ol[1]/li[@data-item-type="tweet"][%d]//div[@class="js-tweet-text-container"]' % (idx+1))
+                        _id = tweet.get_attribute('data-item-id')
+                        info['_id'] = _id
+                        content = tweet.find_element_by_class_name(
+                            "js-tweet-text-container")
                         info['content'] = content.text
-                        info['time'] = datetime.fromtimestamp(
-                            int(
-                                tweet.find_element_by_xpath(
-                                    '//ol[1]/li[@data-item-type="tweet"][%d]//span[@data-time-ms]'
-                                    % (idx + 1)).get_attribute('data-time-ms')
-                                [: -3])).strftime('%Y-%m-%d %H:%M:%S')
+                        info['time'] = datetime.fromtimestamp(int(tweet.find_element_by_xpath(
+                            f'//li[@data-item-id="{_id}"]//span[@data-time]').get_attribute('data-time'))).strftime('%Y-%m-%d %H:%M:%S')
                         info['user'] = tweet.find_element_by_xpath(
-                            '//ol[1]/li[@data-item-type="tweet"][%d]//span[@class="username u-dir u-textTruncate"and@data-aria-label-part]/b' % (idx+1)).text
+                            f'//li[@data-item-id="{_id}"]//span[@class="username u-dir u-textTruncate"]/b').text
                         try:
                             numbers = tweet.find_elements_by_class_name(
                                 'ProfileTweet-actionCountForPresentation')
@@ -88,6 +89,7 @@ class twitterCrawler():
                                 'Null'] * 3
                         if '_id' in info and 'content' in info:
                             count += 1
+                            successlist.append(tweet)
                             yield info
                     except NoSuchElementException:
                         self.log.info(
@@ -96,11 +98,16 @@ class twitterCrawler():
                         yield None
                     except Exception as e:
                         self.log.error('---- Error : %s', e)
+                        droplist.append(tweet)
                         yield None
+            if scroll_history % 11 == 1:
+                self.driver.get(
+                    f'https://twitter.com/search?q={self.search_kw}&src=tyah')
             for _ in range(self.scroll):
                 self.driver.execute_script(
                     "window.scrollTo(0, document.body.scrollHeight);")
-                time.sleep(2)
+                time.sleep(random.random()*2)
+                scroll_history += 1
 
 
 if __name__ == '__main__':
@@ -110,5 +117,5 @@ if __name__ == '__main__':
         i = tweet.__next__()
         if i:
             print(
-                f'Get twitter id :{i["_id"]}, from {i["user"]}, tweet at {i["time"]}')
+                f'Get twitter {i}')
     print('Success.')
