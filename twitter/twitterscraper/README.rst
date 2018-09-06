@@ -1,4 +1,5 @@
-forked from `taspinar/twitterscraper <https://github.com/taspinar/twitterscraper>` __
+Forked from `taspinar/twitterscraper <https://github.com/taspinar/twitterscraper>` __
+=============
 Visit the `Website <http://twitterscraper.nl>`__
 =============
 Don't know that much about programming? Or you don't have enough time? 
