@@ -1,4 +1,4 @@
-Forked from `<https://github.com/taspinar/twitterscraper>` 
+Original forked from `<https://github.com/taspinar/twitterscraper>` at 2018.9.6
 =============
 Visit the `Website <http://twitterscraper.nl>`__
 =============

@@ -14,20 +14,29 @@ class twitterCrawler():
     Crawler class
     """
 
-    def __init__(self, search_kw='healthcare', wait=2, scroll=2):
+    def __init__(
+            self, search_kw='healthcare', wait=2, scroll=2,
+            search_type='latest'):
         self.log = logging.getLogger('Healthcare_crawler')
         chrome_option = webdriver.ChromeOptions()
         chrome_option.add_argument('--disable-gpu')
         chrome_option.add_argument('--headless')
         self.driver = webdriver.Chrome(chrome_options=chrome_option)
         self.status = True
+        self.search_type = search_type
         self.driver.implicitly_wait(wait)
         self.scroll = scroll
         self.search_kw = search_kw
-        self.log.info('---- Driver initialized, with keyword: %s',
-                      self.search_kw)
+        self.log.info(
+            '---- Driver initialized, --keyword: %s, --type: %s',
+            self.search_kw, self.search_type)
+        urls = {
+            'top': f'https://twitter.com/search?q={self.search_kw}&src=tyah',
+            'latest': f'https://twitter.com/search?f=tweets&vertical=news&q={self.search_kw}&src=tyah',
+            'news': f'https://twitter.com/search?f=news&vertical=news&q={self.search_kw}&src=tyah'
+        }
         self.driver.get(
-            f'https://twitter.com/search?q={self.search_kw}&src=tyah')
+            urls[search_type])
 
     def __del__(self):
         self.driver.close()

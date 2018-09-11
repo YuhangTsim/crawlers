@@ -2,28 +2,25 @@
 Crawler to get healthcare tweets.
 """
 import re
-import time
 from sys import argv
 import logging
 import warnings
 import traceback
 import MySQLdb
-from twitterCrawler import twitterCrawler
+from twitterSeleniumCrawler import twitterCrawler
 
 
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
     warnings.filterwarnings('error', category=MySQLdb.Warning)
 
-    tc = twitterCrawler()
-    tweet = tc.get_tweet()
     count = 0
     total = 0
 
     dbconfig = {
-        'host': '****',
+        'host': '142.93.125.178',
         'user': 'root',
-        'pw': '****',
+        'pw': 'j3ss3',
         'db': 'twitter'
     }
 
@@ -46,12 +43,17 @@ if __name__ == '__main__':
     sql_ignore = """
     INSERT IGNORE INTO
     healthcareTweet
-        (tweetId, content, tweetTime, userName, reply, retweet, likeCount)
+        (tweetId, content, tweetTime, userName, reply, retweet, likeCount, kw)
     Values
-    ("{}", "{}", "{}", "{}", "{}", "{}", "{}")
+    ("{}", "{}", "{}", "{}", "{}", "{}", "{}", "{}")
     """
 
-    limit = int(argv[1]) if len(argv) == 2 else 20
+    limit = int(argv[1]) if len(argv) >= 2 else 20
+    if len(argv) >= 3:
+        tc = twitterCrawler(search_kw=argv[2])
+    else:
+        tc = twitterCrawler()
+    tweet = tc.get_tweet()
 
     while count < limit:
         try:
@@ -61,10 +63,11 @@ if __name__ == '__main__':
                 info['content'] = re.sub('’', '\'', info['content'])
                 info['content'] = re.sub('"', '\'', info['content'])
                 # info['content'] = re.sub('[\u2010-\u2050]', '?', info['content'])
+                info['kw'] = tc.search_kw
                 execute_sql = sql_ignore.format(*(info.values()))
                 r = cursor.execute(execute_sql)
-                conn.commit()
                 logging.info('---- Insert Id %s', info['_id'])
+                conn.commit()
                 count += 1
         except Warning as w:
             logging.debug('---- Warning: %s', w)
@@ -74,4 +77,4 @@ if __name__ == '__main__':
                           traceback.format_exc(), execute_sql)
         total += 1
     conn.close()
-    logging.info('Done, %s inserted', count)
+    logging.info('Done, %s inserted, %s in totall fetched', count, total)

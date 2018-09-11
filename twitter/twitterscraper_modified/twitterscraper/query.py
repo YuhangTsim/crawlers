@@ -14,8 +14,7 @@ HEADERS_LIST = [
     'Mozilla/5.0 (compatible, MSIE 11, Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko',
     'Mozilla/5.0 (Windows; U; Windows NT 6.1; rv:2.2) Gecko/20110201',
     'Opera/9.80 (X11; Linux i686; Ubuntu/14.10) Presto/2.12.388 Version/12.16',
-    'Mozilla/5.0 (Windows NT 5.2; RW; rv:7.0a1) Gecko/20091211 SeaMonkey/9.23a1pre'
-]
+    'Mozilla/5.0 (Windows NT 5.2; RW; rv:7.0a1) Gecko/20091211 SeaMonkey/9.23a1pre']
 
 HEADER = {'User-Agent': random.choice(HEADERS_LIST)}
 
@@ -58,7 +57,9 @@ def query_single_page(url, html_response=True, retry=10, from_user=False):
                 json_resp = json.loads(response.text)
                 html = json_resp['items_html'] or ''
             except ValueError as e:
-                logger.exception('Failed to parse JSON "{}" while requesting "{}"'.format(e, url))
+                logger.exception(
+                    'Failed to parse JSON "{}" while requesting "{}"'.format(
+                        e, url))
 
         tweets = list(Tweet.from_html(html))
 
@@ -83,8 +84,8 @@ def query_single_page(url, html_response=True, retry=10, from_user=False):
         logger.exception('TimeOut {} while requesting "{}"'.format(
             e, url))
     except json.decoder.JSONDecodeError as e:
-        logger.exception('Failed to parse JSON "{}" while requesting "{}".'.format(
-            e, url))
+        logger.exception(
+            'Failed to parse JSON "{}" while requesting "{}".'.format(e, url))
 
     if retry > 0:
         logger.info('Retrying... (Attempts left: {})'.format(retry))
@@ -94,7 +95,7 @@ def query_single_page(url, html_response=True, retry=10, from_user=False):
     return [], None
 
 
-def query_tweets_once_generator(query, limit=None, lang=''):
+def query_tweets_once_generator(query, limit=None, lang='', db=None):
     """
     Queries twitter for all the tweets you want! It will load all pages it gets
     from twitter. However, twitter might out of a sudden stop serving new pages,
@@ -127,8 +128,12 @@ def query_tweets_once_generator(query, limit=None, lang=''):
                     num_tweets, query))
                 return
 
-            for t in new_tweets:
-                yield t, pos
+            if db:
+                db(new_tweets)
+                return new_tweets[-1], pos
+            else:
+                for t in new_tweets:
+                    yield t, pos
 
             num_tweets += len(new_tweets)
 
@@ -139,10 +144,10 @@ def query_tweets_once_generator(query, limit=None, lang=''):
 
     except KeyboardInterrupt:
         logger.info('Program interrupted by user. Returning tweets gathered '
-                     'so far...')
+                    'so far...')
     except BaseException:
         logger.exception('An unknown error occurred! Returning tweets '
-                          'gathered so far.')
+                         'gathered so far.')
     logger.info('Got {} tweets for {}.'.format(
         num_tweets, query))
 
@@ -156,13 +161,18 @@ def query_tweets_once(*args, **kwargs):
         return []
 
 
-def query_tweets(query, limit=None, begindate=dt.date(2006,3,21), enddate=dt.date.today(), poolsize=20, lang=''):
+def query_tweets(
+        query, limit=None, begindate=dt.date(2006, 3, 21),
+        enddate=dt.date.today(),
+        poolsize=20, lang='', db=None):
     no_days = (enddate - begindate).days
     if poolsize > no_days:
         # Since we are assigning each pool a range of dates to query,
-		# the number of pools should not exceed the number of dates.
+                # the number of pools should not exceed the number of dates.
         poolsize = no_days
-    dateranges = [begindate + dt.timedelta(days=elem) for elem in linspace(0, no_days, poolsize+1)]
+    dateranges = [
+        begindate + dt.timedelta(days=elem)
+        for elem in linspace(0, no_days, poolsize + 1)]
 
     if limit:
         limit_per_pool = (limit // poolsize)+1
@@ -177,44 +187,56 @@ def query_tweets(query, limit=None, begindate=dt.date(2006,3,21), enddate=dt.dat
         pool = Pool(poolsize)
         logger.info('queries: {}'.format(queries))
         try:
-            for new_tweets in pool.imap_unordered(partial(query_tweets_once, limit=limit_per_pool, lang=lang), queries):
+            for new_tweets in pool.imap_unordered(
+                    partial(
+                        query_tweets_once,
+                        limit=limit_per_pool,
+                        lang=lang, db=db),
+                    queries):
                 all_tweets.extend(new_tweets)
                 logger.info('Got {} tweets ({} new).'.format(
                     len(all_tweets), len(new_tweets)))
         except KeyboardInterrupt:
             logger.info('Program interrupted by user. Returning all tweets '
-                         'gathered so far.')
+                        'gathered so far.')
     finally:
         pool.close()
         pool.join()
 
     return all_tweets
 
+
 def query_tweets_from_user(user, limit=None):
     pos = None
     tweets = []
     try:
         while True:
-           new_tweets, pos = query_single_page(INIT_URL_USER.format(u=user) if pos is None
-                                               else RELOAD_URL_USER.format(u=user, pos=pos), pos is None,
-                                               from_user=True)
-           if len(new_tweets) == 0:
-               logger.info("Got {} tweets from username {}".format(len(tweets), user))
-               return tweets
+            new_tweets, pos = query_single_page(
+                INIT_URL_USER.format(u=user)
+                if pos is None else RELOAD_URL_USER.format(
+                    u=user, pos=pos), pos is None, from_user=True)
+            if len(new_tweets) == 0:
+                logger.info(
+                    "Got {} tweets from username {}".format(
+                        len(tweets),
+                        user))
+                return tweets
 
-           tweets += new_tweets
+            tweets += new_tweets
 
-           if limit and len(tweets) >= limit:
-               logger.info("Got {} tweets from username {}".format(len(tweets), user))
-               return tweets
+            if limit and len(tweets) >= limit:
+                logger.info(
+                    "Got {} tweets from username {}".format(
+                        len(tweets),
+                        user))
+                return tweets
 
     except KeyboardInterrupt:
         logger.info("Program interrupted by user. Returning tweets gathered "
-                     "so far...")
+                    "so far...")
     except BaseException:
         logger.exception("An unknown error occurred! Returning tweets "
-                          "gathered so far.")
+                         "gathered so far.")
     logger.info("Got {} tweets from username {}.".format(
         len(tweets), user))
     return tweets
-

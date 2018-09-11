@@ -3,6 +3,7 @@ Schedule for crawler
 """
 import os
 import logging
+import random
 from apscheduler.schedulers.blocking import BlockingScheduler
 
 logger = logging.getLogger('scheduler')
@@ -19,14 +20,24 @@ job_defaults = {
     'max_instances': 3
 }
 
+kws = ['healthcare', 'health', 'medical']
 
-def start_crawler():
-    os.system("python test_cloud.py 10")
+
+def selenium_crawler():
+    kw = random.choice(kws)
+    os.system(f"python test_cloud.py 40 {kw}")
+    logger.info('---- Start')
+
+
+def scraper():
+    kw = random.choice(kws)
+    os.system(f"python fetch_tweets.py 50000 {kw}")
     logger.info('---- Start')
 
 
 if __name__ == '__main__':
-    logger.info('---- Start in 1 min')
+    logger.info(f'---- Start in 1 min')
     sched = BlockingScheduler(job_defaults=job_defaults)
-    sched.add_job(start_crawler, 'interval', minutes=1)
+    # sched.add_job(selenium_crawler, 'interval', minutes=2)
+    sched.add_job(scraper, 'interval', hours=1)
     sched.start()
