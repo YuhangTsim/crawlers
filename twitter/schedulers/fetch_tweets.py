@@ -1,6 +1,7 @@
 """
 scriptt to fetch new tweets
 """
+import re
 import logging
 from sys import argv
 import MySQLdb
@@ -25,13 +26,6 @@ if __name__ == '__main__':
     logging.basicConfig(
         format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
         level=logging.INFO)
-    conn = MySQLdb.connect(
-        host=dbconfig['host'],
-        user=dbconfig['user'],
-        password=dbconfig['pw'],
-        db=dbconfig['db'],
-        charset="utf8")
-    cursor = conn.cursor()
 
     try:
         limit = int(argv[1]) if len(argv) == 2 else 20
@@ -52,9 +46,9 @@ if __name__ == '__main__':
         Insert tweet into db
         """
         try:
-            info = [(tweet.id, tweet.text, tweet.timestamp, tweet.user,
-                     tweet.replies, tweet.retweets, tweet.likes, search_kw)
-                    for tweet in tweets]
+            info = [(tweet.id, re.sub('\"', '\'', tweet.text),
+                     tweet.timestamp, tweet.user, tweet.replies, tweet.retweets,
+                     tweet.likes, search_kw) for tweet in tweets]
             args = ['%s'] * 8
             sql = sql_ignore.format(*args)
             cursor.executemany(sql, info)
@@ -64,13 +58,20 @@ if __name__ == '__main__':
             logging.warning('---- Warning insert: %s', e)
             conn.rollback()
 
-    if limit:
+    if limit and limit > 20000 and False:
         while count <= limit:
             query_limit += limit
             tweets = query_tweets(
-                search_kw, limit=query_limit, db=db_insert, poolsize=2)
+                search_kw, limit=query_limit, db=db_insert)
     else:
         tweets = query_tweets(search_kw)
+        conn = MySQLdb.connect(
+            host=dbconfig['host'],
+            user=dbconfig['user'],
+            password=dbconfig['pw'],
+            db=dbconfig['db'],
+            charset="utf8")
+        cursor = conn.cursor()
         for _, tweet in enumerate(tweets):
             info = [tweet.id, tweet.text, tweet.timestamp, tweet.user,
                     tweet.replies, tweet.retweets, tweet.likes, search_kw]

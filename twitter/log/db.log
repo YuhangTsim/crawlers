@@ -1,0 +1,800 @@
+-2018-09-12 11:28:38,833-MySQL_conn-INFO: DB connection open
+-2018-09-12 11:28:38,833-MySQL_conn-INFO: DB connection open
+-2018-09-12 11:28:38,847-MySQL_conn-ERROR: ---- Exception: 'Tweet' object is not iterable
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 74, in insert
+    self.cursor.executemany(sql, tweets)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 234, in execute
+    args = tuple(map(db.literal, args))
+TypeError: 'Tweet' object is not iterable
+-2018-09-12 11:28:38,847-MySQL_conn-ERROR: ---- Exception: 'Tweet' object is not iterable
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 74, in insert
+    self.cursor.executemany(sql, tweets)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 234, in execute
+    args = tuple(map(db.literal, args))
+TypeError: 'Tweet' object is not iterable
+-2018-09-12 11:28:38,855-MySQL_conn-INFO: Connection closed
+-2018-09-12 11:28:38,855-MySQL_conn-INFO: Connection closed
+-2018-09-12 11:29:09,199-MySQL_conn-INFO: DB connection open
+-2018-09-12 11:29:09,199-MySQL_conn-INFO: DB connection open
+-2018-09-12 11:29:09,214-MySQL_conn-ERROR: ---- Exception: 'Tweet' object is not iterable
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 74, in insert
+    self.cursor.executemany(sql, tweets)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 234, in execute
+    args = tuple(map(db.literal, args))
+TypeError: 'Tweet' object is not iterable
+-2018-09-12 11:29:09,214-MySQL_conn-ERROR: ---- Exception: 'Tweet' object is not iterable
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 74, in insert
+    self.cursor.executemany(sql, tweets)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 234, in execute
+    args = tuple(map(db.literal, args))
+TypeError: 'Tweet' object is not iterable
+-2018-09-12 11:29:09,238-MySQL_conn-INFO: Connection closed
+-2018-09-12 11:29:09,238-MySQL_conn-INFO: Connection closed
+-2018-09-12 11:56:45,200-MySQL_conn-INFO: DB connection open
+-2018-09-12 11:56:45,200-MySQL_conn-INFO: DB connection open
+-2018-09-12 11:56:45,214-MySQL_conn-ERROR: ---- Exception: 'Tweet' object is not iterable
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 77, in insert
+    self.cursor.executemany(sql, tweets)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 234, in execute
+    args = tuple(map(db.literal, args))
+TypeError: 'Tweet' object is not iterable
+-2018-09-12 11:56:45,214-MySQL_conn-ERROR: ---- Exception: 'Tweet' object is not iterable
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 77, in insert
+    self.cursor.executemany(sql, tweets)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 234, in execute
+    args = tuple(map(db.literal, args))
+TypeError: 'Tweet' object is not iterable
+-2018-09-12 11:56:45,227-MySQL_conn-INFO: Connection closed
+-2018-09-12 11:56:45,227-MySQL_conn-INFO: Connection closed
+-2018-09-12 12:03:26,900-MySQL_conn-INFO: DB connection open
+-2018-09-12 12:03:26,900-MySQL_conn-INFO: DB connection open
+-2018-09-12 12:03:26,918-MySQL_conn-ERROR: ---- Exception: 'Tweet' object is not iterable
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 77, in insert
+    self.cursor.executemany(sql, tweets)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 76, in <genexpr>
+    tweets = (tuple(i) for i in Tweets[i:i+500])
+TypeError: 'Tweet' object is not iterable
+-2018-09-12 12:03:26,918-MySQL_conn-ERROR: ---- Exception: 'Tweet' object is not iterable
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 77, in insert
+    self.cursor.executemany(sql, tweets)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 76, in <genexpr>
+    tweets = (tuple(i) for i in Tweets[i:i+500])
+TypeError: 'Tweet' object is not iterable
+-2018-09-12 12:03:26,931-MySQL_conn-INFO: Connection closed
+-2018-09-12 12:03:26,931-MySQL_conn-INFO: Connection closed
+-2018-09-12 12:05:17,373-MySQL_conn-INFO: DB connection open
+-2018-09-12 12:05:17,373-MySQL_conn-INFO: DB connection open
+-2018-09-12 12:05:17,388-MySQL_conn-ERROR: ---- Exception: 'Tweet' object is not iterable
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 77, in insert
+    self.cursor.executemany(sql, tweets)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 76, in <genexpr>
+    tweets = (tuple(i) for i in list(Tweets[i:i+500]))
+TypeError: 'Tweet' object is not iterable
+-2018-09-12 12:05:17,388-MySQL_conn-ERROR: ---- Exception: 'Tweet' object is not iterable
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 77, in insert
+    self.cursor.executemany(sql, tweets)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 76, in <genexpr>
+    tweets = (tuple(i) for i in list(Tweets[i:i+500]))
+TypeError: 'Tweet' object is not iterable
+-2018-09-12 12:05:17,398-MySQL_conn-INFO: Connection closed
+-2018-09-12 12:05:17,398-MySQL_conn-INFO: Connection closed
+-2018-09-12 12:06:12,554-MySQL_conn-INFO: DB connection open
+-2018-09-12 12:06:12,554-MySQL_conn-INFO: DB connection open
+-2018-09-12 12:06:12,570-MySQL_conn-ERROR: ---- Exception: 'Tweet' object is not iterable
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 77, in insert
+    self.cursor.executemany(sql, tweets)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 76, in <genexpr>
+    tweets = (tuple(i) for i in list(Tweets[i:i+500]))
+TypeError: 'Tweet' object is not iterable
+-2018-09-12 12:06:12,570-MySQL_conn-ERROR: ---- Exception: 'Tweet' object is not iterable
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 77, in insert
+    self.cursor.executemany(sql, tweets)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 76, in <genexpr>
+    tweets = (tuple(i) for i in list(Tweets[i:i+500]))
+TypeError: 'Tweet' object is not iterable
+-2018-09-12 12:06:12,578-MySQL_conn-INFO: Connection closed
+-2018-09-12 12:06:12,578-MySQL_conn-INFO: Connection closed
+-2018-09-12 12:09:18,879-MySQL_conn-INFO: DB connection open
+-2018-09-12 12:09:18,879-MySQL_conn-INFO: DB connection open
+-2018-09-12 12:09:18,894-MySQL_conn-ERROR: ---- Exception: 'Tweet' object is not iterable
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 77, in insert
+    self.cursor.executemany(sql, tweets)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 76, in <genexpr>
+    tweets = (tuple(i) for i in list(Tweets[i:i+500]))
+TypeError: 'Tweet' object is not iterable
+-2018-09-12 12:09:18,894-MySQL_conn-ERROR: ---- Exception: 'Tweet' object is not iterable
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 77, in insert
+    self.cursor.executemany(sql, tweets)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 76, in <genexpr>
+    tweets = (tuple(i) for i in list(Tweets[i:i+500]))
+TypeError: 'Tweet' object is not iterable
+-2018-09-12 12:09:18,903-MySQL_conn-INFO: Connection closed
+-2018-09-12 12:09:18,903-MySQL_conn-INFO: Connection closed
+-2018-09-12 12:11:21,731-MySQL_conn-INFO: DB connection open
+-2018-09-12 12:11:21,731-MySQL_conn-INFO: DB connection open
+-2018-09-12 12:11:21,746-MySQL_conn-ERROR: ---- Exception: 'Tweet' object is not iterable
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 77, in insert
+    self.cursor.executemany(sql, tweets)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 76, in <genexpr>
+    tweets = (tuple(i) for i in list(Tweets[i:i+500]))
+TypeError: 'Tweet' object is not iterable
+-2018-09-12 12:11:21,746-MySQL_conn-ERROR: ---- Exception: 'Tweet' object is not iterable
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 77, in insert
+    self.cursor.executemany(sql, tweets)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 76, in <genexpr>
+    tweets = (tuple(i) for i in list(Tweets[i:i+500]))
+TypeError: 'Tweet' object is not iterable
+-2018-09-12 12:11:21,759-MySQL_conn-INFO: Connection closed
+-2018-09-12 12:11:21,759-MySQL_conn-INFO: Connection closed
+-2018-09-12 12:14:23,044-MySQL_conn-INFO: DB connection open
+-2018-09-12 12:14:23,044-MySQL_conn-INFO: DB connection open
+-2018-09-12 12:14:23,058-MySQL_conn-ERROR: ---- Exception: 'Tweet' object is not iterable
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 78, in insert
+    self.cursor.executemany(sql, tweets)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 77, in <genexpr>
+    tweets = (tuple(i) for i in list(Tweets[i:i+500]))
+TypeError: 'Tweet' object is not iterable
+-2018-09-12 12:14:23,058-MySQL_conn-ERROR: ---- Exception: 'Tweet' object is not iterable
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 78, in insert
+    self.cursor.executemany(sql, tweets)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 77, in <genexpr>
+    tweets = (tuple(i) for i in list(Tweets[i:i+500]))
+TypeError: 'Tweet' object is not iterable
+-2018-09-12 12:14:23,065-MySQL_conn-INFO: Connection closed
+-2018-09-12 12:14:23,065-MySQL_conn-INFO: Connection closed
+-2018-09-12 12:16:58,631-MySQL_conn-INFO: DB connection open
+-2018-09-12 12:16:58,631-MySQL_conn-INFO: DB connection open
+-2018-09-12 12:16:58,646-MySQL_conn-ERROR: ---- Exception: 'Tweet' object is not iterable, [<twitterCrawler.Tweet.Tweet object at 0x1141d5a58>, <twitterCrawler.Tweet.Tweet object at 0x1141d5b00>, <twitterCrawler.Tweet.Tweet object at 0x1141d5b70>, <twitterCrawler.Tweet.Tweet object at 0x1141d5b38>, <twitterCrawler.Tweet.Tweet object at 0x1141d5be0>, <twitterCrawler.Tweet.Tweet object at 0x1141d5ba8>, <twitterCrawler.Tweet.Tweet object at 0x1141d5c18>, <twitterCrawler.Tweet.Tweet object at 0x1141d5ac8>, <twitterCrawler.Tweet.Tweet object at 0x1141d5d68>, <twitterCrawler.Tweet.Tweet object at 0x1141d5cc0>, <twitterCrawler.Tweet.Tweet object at 0x1141d5cf8>, <twitterCrawler.Tweet.Tweet object at 0x1141d5d30>, <twitterCrawler.Tweet.Tweet object at 0x1141d5eb8>, <twitterCrawler.Tweet.Tweet object at 0x1141d5dd8>, <twitterCrawler.Tweet.Tweet object at 0x1141d5e10>, <twitterCrawler.Tweet.Tweet object at 0x1141d5c88>, <twitterCrawler.Tweet.Tweet object at 0x1141d5f60>, <twitterCrawler.Tweet.Tweet object at 0x1141d5f28>, <twitterCrawler.Tweet.Tweet object at 0x1141d5da0>, <twitterCrawler.Tweet.Tweet object at 0x1141d5e80>]
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 78, in insert
+    self.cursor.executemany(sql, tweets)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 77, in <genexpr>
+    tweets = (tuple(i) for i in list(Tweets[i:i+500]))
+TypeError: 'Tweet' object is not iterable
+-2018-09-12 12:16:58,646-MySQL_conn-ERROR: ---- Exception: 'Tweet' object is not iterable, [<twitterCrawler.Tweet.Tweet object at 0x1141d5a58>, <twitterCrawler.Tweet.Tweet object at 0x1141d5b00>, <twitterCrawler.Tweet.Tweet object at 0x1141d5b70>, <twitterCrawler.Tweet.Tweet object at 0x1141d5b38>, <twitterCrawler.Tweet.Tweet object at 0x1141d5be0>, <twitterCrawler.Tweet.Tweet object at 0x1141d5ba8>, <twitterCrawler.Tweet.Tweet object at 0x1141d5c18>, <twitterCrawler.Tweet.Tweet object at 0x1141d5ac8>, <twitterCrawler.Tweet.Tweet object at 0x1141d5d68>, <twitterCrawler.Tweet.Tweet object at 0x1141d5cc0>, <twitterCrawler.Tweet.Tweet object at 0x1141d5cf8>, <twitterCrawler.Tweet.Tweet object at 0x1141d5d30>, <twitterCrawler.Tweet.Tweet object at 0x1141d5eb8>, <twitterCrawler.Tweet.Tweet object at 0x1141d5dd8>, <twitterCrawler.Tweet.Tweet object at 0x1141d5e10>, <twitterCrawler.Tweet.Tweet object at 0x1141d5c88>, <twitterCrawler.Tweet.Tweet object at 0x1141d5f60>, <twitterCrawler.Tweet.Tweet object at 0x1141d5f28>, <twitterCrawler.Tweet.Tweet object at 0x1141d5da0>, <twitterCrawler.Tweet.Tweet object at 0x1141d5e80>]
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 78, in insert
+    self.cursor.executemany(sql, tweets)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 77, in <genexpr>
+    tweets = (tuple(i) for i in list(Tweets[i:i+500]))
+TypeError: 'Tweet' object is not iterable
+-2018-09-12 12:16:58,656-MySQL_conn-INFO: Connection closed
+-2018-09-12 12:16:58,656-MySQL_conn-INFO: Connection closed
+-2018-09-12 12:18:22,606-MySQL_conn-INFO: DB connection open
+-2018-09-12 12:18:22,606-MySQL_conn-INFO: DB connection open
+-2018-09-12 12:18:22,621-MySQL_conn-ERROR: ---- Exception: 'mysqlconnector' object has no attribute 'earch_kw', [<twitterCrawler.Tweet.Tweet object at 0x10bd9ed30>, <twitterCrawler.Tweet.Tweet object at 0x10bd9edd8>, <twitterCrawler.Tweet.Tweet object at 0x10bd9ee48>, <twitterCrawler.Tweet.Tweet object at 0x10bd9ee10>, <twitterCrawler.Tweet.Tweet object at 0x10bd9eeb8>, <twitterCrawler.Tweet.Tweet object at 0x10bd9ee80>, <twitterCrawler.Tweet.Tweet object at 0x10bd9eef0>, <twitterCrawler.Tweet.Tweet object at 0x10bd9eda0>, <twitterCrawler.Tweet.Tweet object at 0x10bd9efd0>, <twitterCrawler.Tweet.Tweet object at 0x10bd9ef28>, <twitterCrawler.Tweet.Tweet object at 0x10bd9ef98>, <twitterCrawler.Tweet.Tweet object at 0x10bd9ef60>, <twitterCrawler.Tweet.Tweet object at 0x10bd92048>, <twitterCrawler.Tweet.Tweet object at 0x10bd920b8>, <twitterCrawler.Tweet.Tweet object at 0x10bd92080>, <twitterCrawler.Tweet.Tweet object at 0x10bd92208>, <twitterCrawler.Tweet.Tweet object at 0x10bd92198>, <twitterCrawler.Tweet.Tweet object at 0x10bd92160>, <twitterCrawler.Tweet.Tweet object at 0x10bd920f0>, <twitterCrawler.Tweet.Tweet object at 0x10bd922e8>]
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 79, in insert
+    tweet.likes, self.earch_kw) for tweet in Tweets[i:i+num]]
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 79, in <listcomp>
+    tweet.likes, self.earch_kw) for tweet in Tweets[i:i+num]]
+AttributeError: 'mysqlconnector' object has no attribute 'earch_kw'
+-2018-09-12 12:18:22,621-MySQL_conn-ERROR: ---- Exception: 'mysqlconnector' object has no attribute 'earch_kw', [<twitterCrawler.Tweet.Tweet object at 0x10bd9ed30>, <twitterCrawler.Tweet.Tweet object at 0x10bd9edd8>, <twitterCrawler.Tweet.Tweet object at 0x10bd9ee48>, <twitterCrawler.Tweet.Tweet object at 0x10bd9ee10>, <twitterCrawler.Tweet.Tweet object at 0x10bd9eeb8>, <twitterCrawler.Tweet.Tweet object at 0x10bd9ee80>, <twitterCrawler.Tweet.Tweet object at 0x10bd9eef0>, <twitterCrawler.Tweet.Tweet object at 0x10bd9eda0>, <twitterCrawler.Tweet.Tweet object at 0x10bd9efd0>, <twitterCrawler.Tweet.Tweet object at 0x10bd9ef28>, <twitterCrawler.Tweet.Tweet object at 0x10bd9ef98>, <twitterCrawler.Tweet.Tweet object at 0x10bd9ef60>, <twitterCrawler.Tweet.Tweet object at 0x10bd92048>, <twitterCrawler.Tweet.Tweet object at 0x10bd920b8>, <twitterCrawler.Tweet.Tweet object at 0x10bd92080>, <twitterCrawler.Tweet.Tweet object at 0x10bd92208>, <twitterCrawler.Tweet.Tweet object at 0x10bd92198>, <twitterCrawler.Tweet.Tweet object at 0x10bd92160>, <twitterCrawler.Tweet.Tweet object at 0x10bd920f0>, <twitterCrawler.Tweet.Tweet object at 0x10bd922e8>]
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 79, in insert
+    tweet.likes, self.earch_kw) for tweet in Tweets[i:i+num]]
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 79, in <listcomp>
+    tweet.likes, self.earch_kw) for tweet in Tweets[i:i+num]]
+AttributeError: 'mysqlconnector' object has no attribute 'earch_kw'
+-2018-09-12 12:18:22,626-MySQL_conn-INFO: Connection closed
+-2018-09-12 12:18:22,626-MySQL_conn-INFO: Connection closed
+-2018-09-12 12:21:36,032-MySQL_conn-INFO: DB connection open
+-2018-09-12 12:21:36,032-MySQL_conn-INFO: DB connection open
+-2018-09-12 12:21:36,046-MySQL_conn-ERROR: ---- Exception: 'latin-1' codec can't encode character '\u2026' in position 312: ordinal not in range(256), [<twitterCrawler.Tweet.Tweet object at 0x10d1549e8>, <twitterCrawler.Tweet.Tweet object at 0x10d154a90>, <twitterCrawler.Tweet.Tweet object at 0x10d154b00>, <twitterCrawler.Tweet.Tweet object at 0x10d154ac8>, <twitterCrawler.Tweet.Tweet object at 0x10d154b70>, <twitterCrawler.Tweet.Tweet object at 0x10d154b38>, <twitterCrawler.Tweet.Tweet object at 0x10d154ba8>, <twitterCrawler.Tweet.Tweet object at 0x10d154a58>, <twitterCrawler.Tweet.Tweet object at 0x10d154cf8>, <twitterCrawler.Tweet.Tweet object at 0x10d154c50>, <twitterCrawler.Tweet.Tweet object at 0x10d154c88>, <twitterCrawler.Tweet.Tweet object at 0x10d154cc0>, <twitterCrawler.Tweet.Tweet object at 0x10d154e48>, <twitterCrawler.Tweet.Tweet object at 0x10d154d68>, <twitterCrawler.Tweet.Tweet object at 0x10d154da0>, <twitterCrawler.Tweet.Tweet object at 0x10d154c18>, <twitterCrawler.Tweet.Tweet object at 0x10d154ef0>, <twitterCrawler.Tweet.Tweet object at 0x10d154eb8>, <twitterCrawler.Tweet.Tweet object at 0x10d154d30>, <twitterCrawler.Tweet.Tweet object at 0x10d154f98>]
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 80, in insert
+    self.cursor.executemany(sql, info)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 234, in execute
+    args = tuple(map(db.literal, args))
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/connections.py", line 318, in literal
+    s = self.escape(o, self.encoders)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/connections.py", line 225, in unicode_literal
+    return db.string_literal(str(u).encode(db.encoding))
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u2026' in position 312: ordinal not in range(256)
+-2018-09-12 12:21:36,046-MySQL_conn-ERROR: ---- Exception: 'latin-1' codec can't encode character '\u2026' in position 312: ordinal not in range(256), [<twitterCrawler.Tweet.Tweet object at 0x10d1549e8>, <twitterCrawler.Tweet.Tweet object at 0x10d154a90>, <twitterCrawler.Tweet.Tweet object at 0x10d154b00>, <twitterCrawler.Tweet.Tweet object at 0x10d154ac8>, <twitterCrawler.Tweet.Tweet object at 0x10d154b70>, <twitterCrawler.Tweet.Tweet object at 0x10d154b38>, <twitterCrawler.Tweet.Tweet object at 0x10d154ba8>, <twitterCrawler.Tweet.Tweet object at 0x10d154a58>, <twitterCrawler.Tweet.Tweet object at 0x10d154cf8>, <twitterCrawler.Tweet.Tweet object at 0x10d154c50>, <twitterCrawler.Tweet.Tweet object at 0x10d154c88>, <twitterCrawler.Tweet.Tweet object at 0x10d154cc0>, <twitterCrawler.Tweet.Tweet object at 0x10d154e48>, <twitterCrawler.Tweet.Tweet object at 0x10d154d68>, <twitterCrawler.Tweet.Tweet object at 0x10d154da0>, <twitterCrawler.Tweet.Tweet object at 0x10d154c18>, <twitterCrawler.Tweet.Tweet object at 0x10d154ef0>, <twitterCrawler.Tweet.Tweet object at 0x10d154eb8>, <twitterCrawler.Tweet.Tweet object at 0x10d154d30>, <twitterCrawler.Tweet.Tweet object at 0x10d154f98>]
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/utilies/mysqlConnection.py", line 80, in insert
+    self.cursor.executemany(sql, info)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in executemany
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 283, in <genexpr>
+    self.rowcount = sum(self.execute(query, arg) for arg in args)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/cursors.py", line 234, in execute
+    args = tuple(map(db.literal, args))
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/connections.py", line 318, in literal
+    s = self.escape(o, self.encoders)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/MySQLdb/connections.py", line 225, in unicode_literal
+    return db.string_literal(str(u).encode(db.encoding))
+UnicodeEncodeError: 'latin-1' codec can't encode character '\u2026' in position 312: ordinal not in range(256)
+-2018-09-12 12:21:36,054-MySQL_conn-INFO: Connection closed
+-2018-09-12 12:21:36,054-MySQL_conn-INFO: Connection closed
+-2018-09-12 12:27:40,586-MySQL_conn-INFO: DB connection open
+-2018-09-12 12:27:40,586-MySQL_conn-INFO: DB connection open
+-2018-09-12 12:27:41,007-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 12:27:41,007-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 12:27:41,015-MySQL_conn-INFO: Connection closed
+-2018-09-12 12:27:41,015-MySQL_conn-INFO: Connection closed
+-2018-09-12 16:06:32,302-MySQL_conn-INFO: DB connection open
+-2018-09-12 16:06:32,302-MySQL_conn-INFO: DB connection open
+-2018-09-12 16:06:32,667-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 16:06:32,667-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 16:06:32,669-MySQL_conn-INFO: Connection closed
+-2018-09-12 16:06:32,669-MySQL_conn-INFO: Connection closed
+-2018-09-12 16:09:51,191-MySQL_conn-INFO: DB connection open
+-2018-09-12 16:09:51,191-MySQL_conn-INFO: DB connection open
+-2018-09-12 16:09:51,601-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 16:09:51,601-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 16:09:51,604-MySQL_conn-INFO: Connection closed
+-2018-09-12 16:09:51,604-MySQL_conn-INFO: Connection closed
+-2018-09-12 16:12:19,401-MySQL_conn-INFO: DB connection open
+-2018-09-12 16:12:19,401-MySQL_conn-INFO: DB connection open
+-2018-09-12 16:12:19,824-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 16:12:19,824-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 16:12:19,827-MySQL_conn-INFO: Connection closed
+-2018-09-12 16:12:19,827-MySQL_conn-INFO: Connection closed
+-2018-09-12 17:02:15,625-MySQL_conn-INFO: DB connection open
+-2018-09-12 17:02:15,625-MySQL_conn-INFO: DB connection open
+-2018-09-12 17:02:16,059-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 17:02:16,059-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 17:02:16,063-MySQL_conn-INFO: Connection closed
+-2018-09-12 17:02:16,063-MySQL_conn-INFO: Connection closed
+-2018-09-12 17:08:27,693-MySQL_conn-INFO: DB connection open
+-2018-09-12 17:08:27,693-MySQL_conn-INFO: DB connection open
+-2018-09-12 17:08:28,084-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 17:08:28,084-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 17:08:28,086-MySQL_conn-INFO: Connection closed
+-2018-09-12 17:08:28,086-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:05:20,238-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:05:20,238-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:05:21,227-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 22:05:21,227-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 22:05:21,233-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:05:21,233-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:05:57,769-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:05:57,769-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:05:58,427-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 22:05:58,427-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 22:05:58,430-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:05:58,430-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:06:29,825-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:06:29,825-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:06:30,397-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 22:06:30,397-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 22:06:30,400-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:06:30,400-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:11,952-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:11,954-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:11,954-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,027-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,028-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,027-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,028-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,038-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,038-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,040-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,041-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,040-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,041-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,047-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,047-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,063-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,063-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,065-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,065-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,062-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,062-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,062-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,062-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,073-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,073-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,077-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,078-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:11,952-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,079-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,078-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,079-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,088-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,088-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,091-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,091-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,080-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,099-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,080-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,099-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,077-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,106-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,106-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,112-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,112-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,126-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,126-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,131-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,130-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,131-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,133-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,135-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,133-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,135-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,130-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,140-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,140-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,144-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,145-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,144-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,145-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,142-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,142-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,151-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,152-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,152-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,151-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,157-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,158-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,160-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,158-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,157-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,160-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,278-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,278-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,305-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,305-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:12,581-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:12,581-MySQL_conn-INFO: DB connection open
+-2018-09-12 22:58:13,153-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 22:58:13,153-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 22:58:13,173-MySQL_conn-INFO: Connection closed
+-2018-09-12 22:58:13,173-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:06:32,154-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,154-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,176-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,176-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,178-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,178-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,273-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,273-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,302-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,302-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,334-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,359-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,370-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,382-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,334-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,359-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,389-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,370-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,382-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,389-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,434-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,434-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,444-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,445-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,446-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,444-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,445-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,446-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,456-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,457-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,457-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,463-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,462-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,457-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,456-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,457-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,463-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,462-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,759-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:32,759-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:06:33,270-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:06:33,270-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:06:35,872-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:06:35,872-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:06:38,028-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:06:38,028-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:06:40,238-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:06:40,238-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:06:42,475-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:06:42,475-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:06:44,716-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:06:44,716-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:06:46,937-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:06:46,937-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:06:49,536-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:06:49,536-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:06:51,850-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:06:51,850-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:06:54,239-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:06:54,239-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:06:56,411-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:06:56,411-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:06:58,731-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:06:58,731-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:01,376-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:01,376-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:03,801-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:03,801-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:06,197-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:06,197-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:08,714-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:08,714-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:11,347-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:11,347-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:13,962-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:13,962-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:16,356-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:16,356-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:18,676-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:18,676-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:21,088-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:21,088-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:23,439-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:23,439-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:26,455-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:26,455-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:28,904-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:28,904-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:31,238-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:31,238-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:33,469-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:33,469-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:36,186-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:36,186-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:38,741-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:38,741-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:41,371-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:41,371-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:44,653-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:44,653-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:47,232-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:47,232-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:49,761-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:49,761-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:52,997-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:52,997-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:55,172-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:55,172-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:57,727-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:07:57,727-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:00,248-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:00,248-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:02,678-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:02,678-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:05,103-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:05,103-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:07,265-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:07,265-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:10,951-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:10,951-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:13,226-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:13,226-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:15,295-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:15,295-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:17,775-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:17,775-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:19,892-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:19,892-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:22,112-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:22,112-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:24,236-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:24,236-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:26,615-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:26,615-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:29,786-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:29,786-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:32,310-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:32,310-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:34,564-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:34,564-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:36,802-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:36,802-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:39,031-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:39,031-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:41,451-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:41,451-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:43,799-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:43,799-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:46,333-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:46,333-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:48,558-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:48,558-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:50,902-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:50,902-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:53,190-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:53,190-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:55,397-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:55,397-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:57,652-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:08:57,652-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:00,192-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:00,192-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:02,729-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:02,729-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:05,235-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:05,235-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:07,722-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:07,722-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:10,129-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:10,129-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:12,398-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:12,398-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:14,630-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:14,630-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:16,950-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:16,950-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:19,244-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:19,244-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:21,648-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:21,648-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:24,023-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:24,023-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:26,405-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:26,405-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:28,646-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:28,646-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:30,921-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:30,921-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:33,003-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:33,003-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:35,528-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:35,528-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:37,815-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:37,815-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:40,117-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:40,117-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:42,457-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:42,457-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:44,820-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:44,820-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:47,014-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:47,014-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:49,616-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:49,616-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:52,393-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:52,393-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:54,685-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:54,685-MySQL_conn-INFO: ---- Insertion 20/20
+-2018-09-12 23:09:56,972-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,973-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,969-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,972-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,972-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,976-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,979-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,976-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,976-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,982-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,978-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,972-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,975-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,975-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,980-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,981-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,978-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,984-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,969-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,972-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,976-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,986-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,972-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,983-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,976-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,973-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,984-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,979-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,976-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,978-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,984-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,982-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,975-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,980-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,975-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,981-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,986-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,978-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,984-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:09:56,983-MySQL_conn-INFO: Connection closed
+-2018-09-12 23:14:23,588-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,588-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,601-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,601-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,641-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,641-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,745-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,745-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,875-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,875-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,881-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,881-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,887-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,888-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,888-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,887-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,888-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,888-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,892-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,892-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,899-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,899-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,902-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,902-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,908-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,908-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,921-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,921-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,925-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,925-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,930-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,930-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,945-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,945-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,945-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,945-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,953-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:14:23,953-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:15:02,939-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:15:02,939-MySQL_conn-INFO: DB connection open
+-2018-09-12 23:15:05,616-MySQL_conn-INFO: ---- Insertion 420/420
+-2018-09-12 23:15:05,616-MySQL_conn-INFO: ---- Insertion 420/420
+-2018-09-12 23:15:08,097-MySQL_conn-INFO: ---- Insertion 420/420
+-2018-09-12 23:15:08,097-MySQL_conn-INFO: ---- Insertion 420/420
+-2018-09-12 23:15:10,633-MySQL_conn-INFO: ---- Insertion 420/420
+-2018-09-12 23:15:10,633-MySQL_conn-INFO: ---- Insertion 420/420
+-2018-09-12 23:15:13,371-MySQL_conn-INFO: ---- Insertion 420/420
+-2018-09-12 23:15:13,371-MySQL_conn-INFO: ---- Insertion 420/420
+-2018-09-12 23:15:14,005-MySQL_conn-INFO: ---- Insertion 420/420
+-2018-09-12 23:15:14,005-MySQL_conn-INFO: ---- Insertion 420/420
+-2018-09-12 23:19:39,948-MySQL_conn-INFO: ---- Insertion 500/2520
+-2018-09-12 23:19:39,948-MySQL_conn-INFO: ---- Insertion 500/2520
+-2018-09-12 23:19:42,362-MySQL_conn-INFO: ---- Insertion 600/2520
+-2018-09-12 23:19:42,362-MySQL_conn-INFO: ---- Insertion 600/2520
+-2018-09-12 23:19:44,792-MySQL_conn-INFO: ---- Insertion 700/2520
+-2018-09-12 23:19:44,792-MySQL_conn-INFO: ---- Insertion 700/2520
+-2018-09-12 23:19:47,733-MySQL_conn-INFO: ---- Insertion 800/2520
+-2018-09-12 23:19:47,733-MySQL_conn-INFO: ---- Insertion 800/2520
+-2018-09-12 23:19:50,293-MySQL_conn-INFO: ---- Insertion 900/2520
+-2018-09-12 23:19:50,293-MySQL_conn-INFO: ---- Insertion 900/2520
+-2018-09-12 23:19:52,680-MySQL_conn-INFO: ---- Insertion 1000/2520
+-2018-09-12 23:19:52,680-MySQL_conn-INFO: ---- Insertion 1000/2520
+-2018-09-12 23:19:55,534-MySQL_conn-INFO: ---- Insertion 1100/2520
+-2018-09-12 23:19:55,534-MySQL_conn-INFO: ---- Insertion 1100/2520
+-2018-09-12 23:19:58,581-MySQL_conn-INFO: ---- Insertion 1200/2520
+-2018-09-12 23:19:58,581-MySQL_conn-INFO: ---- Insertion 1200/2520
+-2018-09-12 23:20:01,166-MySQL_conn-INFO: ---- Insertion 1300/2520
+-2018-09-12 23:20:01,166-MySQL_conn-INFO: ---- Insertion 1300/2520
+-2018-09-12 23:20:03,791-MySQL_conn-INFO: ---- Insertion 1400/2520
+-2018-09-12 23:20:03,791-MySQL_conn-INFO: ---- Insertion 1400/2520
+-2018-09-12 23:20:06,751-MySQL_conn-INFO: ---- Insertion 1500/2520
+-2018-09-12 23:20:06,751-MySQL_conn-INFO: ---- Insertion 1500/2520
+-2018-09-12 23:20:09,816-MySQL_conn-INFO: ---- Insertion 1600/2520
+-2018-09-12 23:20:09,816-MySQL_conn-INFO: ---- Insertion 1600/2520
+-2018-09-12 23:20:12,643-MySQL_conn-INFO: ---- Insertion 1700/2520
+-2018-09-12 23:20:12,643-MySQL_conn-INFO: ---- Insertion 1700/2520
+-2018-09-12 23:20:15,467-MySQL_conn-INFO: ---- Insertion 1800/2520
+-2018-09-12 23:20:15,467-MySQL_conn-INFO: ---- Insertion 1800/2520
+-2018-09-12 23:20:18,454-MySQL_conn-INFO: ---- Insertion 1900/2520
+-2018-09-12 23:20:18,454-MySQL_conn-INFO: ---- Insertion 1900/2520
+-2018-09-12 23:20:22,029-MySQL_conn-INFO: ---- Insertion 2000/2520
+-2018-09-12 23:20:22,029-MySQL_conn-INFO: ---- Insertion 2000/2520
+-2018-09-12 23:20:25,389-MySQL_conn-INFO: ---- Insertion 2100/2520
+-2018-09-12 23:20:25,389-MySQL_conn-INFO: ---- Insertion 2100/2520
+-2018-09-12 23:20:28,556-MySQL_conn-INFO: ---- Insertion 2200/2520
+-2018-09-12 23:20:28,556-MySQL_conn-INFO: ---- Insertion 2200/2520
+-2018-09-12 23:20:32,140-MySQL_conn-INFO: ---- Insertion 2300/2520
+-2018-09-12 23:20:32,140-MySQL_conn-INFO: ---- Insertion 2300/2520
+-2018-09-12 23:20:35,416-MySQL_conn-INFO: ---- Insertion 2400/2520
+-2018-09-12 23:20:35,416-MySQL_conn-INFO: ---- Insertion 2400/2520
+-2018-09-12 23:20:39,301-MySQL_conn-INFO: ---- Insertion 2500/2520
+-2018-09-12 23:20:39,301-MySQL_conn-INFO: ---- Insertion 2500/2520
+-2018-09-12 23:20:42,561-MySQL_conn-INFO: ---- Insertion 2600/2520
+-2018-09-12 23:20:42,561-MySQL_conn-INFO: ---- Insertion 2600/2520
+-2018-09-12 23:20:45,633-MySQL_conn-INFO: ---- Insertion 2700/2520
+-2018-09-12 23:20:45,633-MySQL_conn-INFO: ---- Insertion 2700/2520
+-2018-09-12 23:20:48,623-MySQL_conn-INFO: ---- Insertion 2800/2520
+-2018-09-12 23:20:48,623-MySQL_conn-INFO: ---- Insertion 2800/2520
+-2018-09-12 23:20:52,193-MySQL_conn-INFO: ---- Insertion 2900/2520
+-2018-09-12 23:20:52,193-MySQL_conn-INFO: ---- Insertion 2900/2520
+-2018-09-12 23:20:52,756-MySQL_conn-INFO: ---- Insertion 3000/2520
+-2018-09-12 23:20:52,756-MySQL_conn-INFO: ---- Insertion 3000/2520
+-2018-09-12 23:23:39,201-MySQL_conn-INFO: ---- Insertion 280/10000
+-2018-09-12 23:23:39,201-MySQL_conn-INFO: ---- Insertion 280/10000

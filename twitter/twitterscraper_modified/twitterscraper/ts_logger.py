@@ -3,7 +3,8 @@ import logging
 
 logger = logging.getLogger('twitterscraper')
 
-formatter = logging.Formatter('%(levelname)s: %(message)s')
+formatter = logging.Formatter(
+    '-%(asctime)-15s-%(name)s-%(levelname)s: %(message)s')
 handler = logging.StreamHandler()
 handler.setFormatter(formatter)
 logger.addHandler(handler)

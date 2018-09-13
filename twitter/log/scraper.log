@@ -1,0 +1,1794 @@
+-2018-09-12 11:54:53,352-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2018-09-12']
+-2018-09-12 11:54:53,356-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2018-09-12
+-2018-09-12 11:55:12,102-twitterScraper-INFO: Limit reached, Got 220 tweets for healthcare since:2006-03-21 until:2018-09-12.
+-2018-09-12 11:55:12,106-twitterScraper-INFO: Got 220 / (220 new)
+-2018-09-12 11:56:44,222-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2018-09-12']
+-2018-09-12 11:56:44,225-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2018-09-12
+-2018-09-12 11:56:45,226-twitterScraper-INFO: -- 20 inserted
+-2018-09-12 11:56:45,230-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 160, in query_tweets_once_generator
+    if len(new_tweets) == 0:
+TypeError: object of type 'int' has no len()
+-2018-09-12 11:56:45,232-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2006-03-21 until:2018-09-12.
+-2018-09-12 11:56:45,236-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 12:03:25,962-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2018-09-12']
+-2018-09-12 12:03:25,966-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2018-09-12
+-2018-09-12 12:03:26,930-twitterScraper-INFO: -- 20 inserted
+-2018-09-12 12:03:26,936-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 172, in query_tweets_once_generator
+    for t in new_tweets:
+TypeError: 'int' object is not iterable
+-2018-09-12 12:03:26,938-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2006-03-21 until:2018-09-12.
+-2018-09-12 12:03:26,940-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 12:05:16,372-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2018-09-12']
+-2018-09-12 12:05:16,375-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2018-09-12
+-2018-09-12 12:05:17,396-twitterScraper-INFO: -- 20 inserted
+-2018-09-12 12:05:17,401-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 179, in query_tweets_once_generator
+    num_tweets += len(new_tweets)
+TypeError: object of type 'int' has no len()
+-2018-09-12 12:05:17,403-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2006-03-21 until:2018-09-12.
+-2018-09-12 12:05:17,405-twitterScraper-INFO: Got 20 / (20 new)
+-2018-09-12 12:06:11,644-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2018-09-12']
+-2018-09-12 12:06:11,648-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2018-09-12
+-2018-09-12 12:06:12,577-twitterScraper-INFO: -- 20 inserted
+-2018-09-12 12:06:14,217-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 177, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 12:06:14,219-twitterScraper-INFO: Query done, Got 20 tweets for healthcare since:2006-03-21 until:2018-09-12.
+-2018-09-12 12:06:14,221-twitterScraper-INFO: Got 20 / (20 new)
+-2018-09-12 12:09:17,976-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2018-09-12']
+-2018-09-12 12:09:17,979-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2018-09-12
+-2018-09-12 12:09:18,901-twitterScraper-INFO: -- 20 inserted
+-2018-09-12 12:09:36,474-twitterScraper-INFO: Limit reached, Got 220 tweets for healthcare since:2006-03-21 until:2018-09-12.
+-2018-09-12 12:09:36,476-twitterScraper-INFO: Got 220 / (220 new)
+-2018-09-12 12:11:20,770-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2018-09-12']
+-2018-09-12 12:11:20,774-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2018-09-12
+-2018-09-12 12:11:21,758-twitterScraper-INFO: -- 20 inserted
+-2018-09-12 12:11:41,970-twitterScraper-INFO: Limit reached, Got 220 tweets for healthcare since:2006-03-21 until:2018-09-12.
+-2018-09-12 12:11:41,971-twitterScraper-INFO: Got 220 / (220 new)
+-2018-09-12 12:14:21,983-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2018-09-12']
+-2018-09-12 12:14:21,985-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2018-09-12
+-2018-09-12 12:14:23,064-twitterScraper-INFO: -- 20 inserted
+-2018-09-12 12:14:40,553-twitterScraper-INFO: Limit reached, Got 220 tweets for healthcare since:2006-03-21 until:2018-09-12.
+-2018-09-12 12:14:40,565-twitterScraper-INFO: Got 220 / (220 new)
+-2018-09-12 12:16:57,716-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2018-09-12']
+-2018-09-12 12:16:57,718-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2018-09-12
+-2018-09-12 12:17:16,049-twitterScraper-INFO: Limit reached, Got 220 tweets for healthcare since:2006-03-21 until:2018-09-12.
+-2018-09-12 12:17:16,051-twitterScraper-INFO: Got 220 / (220 new)
+-2018-09-12 12:18:21,413-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2018-09-12']
+-2018-09-12 12:18:21,417-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2018-09-12
+-2018-09-12 12:18:39,934-twitterScraper-INFO: Limit reached, Got 220 tweets for healthcare since:2006-03-21 until:2018-09-12.
+-2018-09-12 12:18:39,935-twitterScraper-INFO: Got 220 / (220 new)
+-2018-09-12 12:21:35,046-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2018-09-12']
+-2018-09-12 12:21:35,048-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2018-09-12
+-2018-09-12 12:21:53,652-twitterScraper-INFO: Limit reached, Got 220 tweets for healthcare since:2006-03-21 until:2018-09-12.
+-2018-09-12 12:21:53,654-twitterScraper-INFO: Got 220 / (220 new)
+-2018-09-12 12:27:39,568-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2018-09-12']
+-2018-09-12 12:27:39,570-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2018-09-12
+-2018-09-12 12:27:58,411-twitterScraper-INFO: Limit reached, Got 220 tweets for healthcare since:2006-03-21 until:2018-09-12.
+-2018-09-12 12:27:58,413-twitterScraper-INFO: Got 220 / (220 new)
+-2018-09-12 16:06:31,348-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2018-09-12']
+-2018-09-12 16:06:31,352-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2018-09-12
+-2018-09-12 16:09:25,469-twitterScraper-INFO: Limit reached, Got 2020 tweets for healthcare since:2006-03-21 until:2018-09-12.
+-2018-09-12 16:09:25,537-twitterScraper-INFO: Got 2020 / (2020 new)
+-2018-09-12 16:09:50,247-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2007-06-19', 'healthcare since:2007-06-19 until:2008-09-17', 'healthcare since:2008-09-17 until:2009-12-17', 'healthcare since:2009-12-17 until:2011-03-18', 'healthcare since:2011-03-18 until:2012-06-16', 'healthcare since:2012-06-16 until:2013-09-14', 'healthcare since:2013-09-14 until:2014-12-14', 'healthcare since:2014-12-14 until:2016-03-14', 'healthcare since:2016-03-14 until:2017-06-13', 'healthcare since:2017-06-13 until:2018-09-12']
+-2018-09-12 16:09:50,255-twitterScraper-INFO: -- Quering healthcare since:2017-06-13 until:2018-09-12
+-2018-09-12 16:09:50,254-twitterScraper-INFO: -- Quering healthcare since:2016-03-14 until:2017-06-13
+-2018-09-12 16:09:50,254-twitterScraper-INFO: -- Quering healthcare since:2013-09-14 until:2014-12-14
+-2018-09-12 16:09:50,252-twitterScraper-INFO: -- Quering healthcare since:2009-12-17 until:2011-03-18
+-2018-09-12 16:09:50,251-twitterScraper-INFO: -- Quering healthcare since:2007-06-19 until:2008-09-17
+-2018-09-12 16:09:50,254-twitterScraper-INFO: -- Quering healthcare since:2014-12-14 until:2016-03-14
+-2018-09-12 16:09:50,251-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2007-06-19
+-2018-09-12 16:09:50,252-twitterScraper-INFO: -- Quering healthcare since:2008-09-17 until:2009-12-17
+-2018-09-12 16:09:50,253-twitterScraper-INFO: -- Quering healthcare since:2012-06-16 until:2013-09-14
+-2018-09-12 16:09:50,253-twitterScraper-INFO: -- Quering healthcare since:2011-03-18 until:2012-06-16
+-2018-09-12 16:09:50,775-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 16:09:50,778-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2016-03-14 until:2017-06-13.
+-2018-09-12 16:09:50,780-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 16:09:50,795-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 16:09:50,809-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2008-09-17 until:2009-12-17.
+-2018-09-12 16:09:50,811-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 16:09:50,811-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 16:09:50,813-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2007-06-19 until:2008-09-17.
+-2018-09-12 16:09:50,815-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 16:09:50,812-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 16:09:50,816-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2011-03-18 until:2012-06-16.
+-2018-09-12 16:09:50,818-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 16:09:50,820-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 16:09:50,823-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2006-03-21 until:2007-06-19.
+-2018-09-12 16:09:50,821-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 16:09:50,825-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 16:09:50,823-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 16:09:50,825-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2009-12-17 until:2011-03-18.
+-2018-09-12 16:09:50,829-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 16:09:50,826-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2013-09-14 until:2014-12-14.
+-2018-09-12 16:09:50,830-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 16:09:50,835-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 16:09:50,839-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2012-06-16 until:2013-09-14.
+-2018-09-12 16:09:50,844-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 16:09:50,839-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 16:09:50,845-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2014-12-14 until:2016-03-14.
+-2018-09-12 16:09:50,847-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 16:10:10,599-twitterScraper-INFO: Limit reached, Got 220 tweets for healthcare since:2017-06-13 until:2018-09-12.
+-2018-09-12 16:10:10,601-twitterScraper-INFO: Got 220 / (220 new)
+-2018-09-12 16:12:18,330-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2007-06-19', 'healthcare since:2007-06-19 until:2008-09-17', 'healthcare since:2008-09-17 until:2009-12-17', 'healthcare since:2009-12-17 until:2011-03-18', 'healthcare since:2011-03-18 until:2012-06-16', 'healthcare since:2012-06-16 until:2013-09-14', 'healthcare since:2013-09-14 until:2014-12-14', 'healthcare since:2014-12-14 until:2016-03-14', 'healthcare since:2016-03-14 until:2017-06-13', 'healthcare since:2017-06-13 until:2018-09-12']
+-2018-09-12 16:12:18,335-twitterScraper-INFO: -- Quering healthcare since:2009-12-17 until:2011-03-18
+-2018-09-12 16:12:18,333-twitterScraper-INFO: -- Quering healthcare since:2007-06-19 until:2008-09-17
+-2018-09-12 16:12:18,334-twitterScraper-INFO: -- Quering healthcare since:2008-09-17 until:2009-12-17
+-2018-09-12 16:12:18,337-twitterScraper-INFO: -- Quering healthcare since:2013-09-14 until:2014-12-14
+-2018-09-12 16:12:18,334-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2007-06-19
+-2018-09-12 16:12:18,335-twitterScraper-INFO: -- Quering healthcare since:2011-03-18 until:2012-06-16
+-2018-09-12 16:12:18,336-twitterScraper-INFO: -- Quering healthcare since:2012-06-16 until:2013-09-14
+-2018-09-12 16:12:18,337-twitterScraper-INFO: -- Quering healthcare since:2016-03-14 until:2017-06-13
+-2018-09-12 16:12:18,337-twitterScraper-INFO: -- Quering healthcare since:2017-06-13 until:2018-09-12
+-2018-09-12 16:12:18,338-twitterScraper-INFO: -- Quering healthcare since:2014-12-14 until:2016-03-14
+-2018-09-12 16:12:18,837-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 16:12:18,840-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2006-03-21 until:2007-06-19.
+-2018-09-12 16:12:18,839-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 16:12:18,843-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 16:12:18,843-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2009-12-17 until:2011-03-18.
+-2018-09-12 16:12:18,845-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 16:12:18,909-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 16:12:18,912-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2014-12-14 until:2016-03-14.
+-2018-09-12 16:12:18,914-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 16:12:18,922-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 16:12:18,920-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 16:12:18,927-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2013-09-14 until:2014-12-14.
+-2018-09-12 16:12:18,929-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2007-06-19 until:2008-09-17.
+-2018-09-12 16:12:18,931-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 16:12:18,931-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 16:12:18,935-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 16:12:18,938-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2012-06-16 until:2013-09-14.
+-2018-09-12 16:12:18,936-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 16:12:18,939-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 16:12:18,938-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 16:12:18,939-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2016-03-14 until:2017-06-13.
+-2018-09-12 16:12:18,941-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 16:12:18,940-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2008-09-17 until:2009-12-17.
+-2018-09-12 16:12:18,935-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 16:12:18,942-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 16:12:18,942-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2011-03-18 until:2012-06-16.
+-2018-09-12 16:12:18,944-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 16:59:44,954-twitterScraper-ERROR: ConnectionError HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1174105c0>: Failed to establish a new connection: [Errno 50] Network is down',)) while requesting "https://twitter.com/i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare since:2017-06-13 until:2018-09-12&l="
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/connection.py", line 83, in create_connection
+    raise err
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 50] Network is down
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x1174105c0>: Failed to establish a new connection: [Errno 50] Network is down
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 445, in send
+    timeout=timeout
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1174105c0>: Failed to establish a new connection: [Errno 50] Network is down',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 58, in query_single_page
+    resp = requests.get(url, headers=HEADER)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1174105c0>: Failed to establish a new connection: [Errno 50] Network is down',))
+-2018-09-12 16:59:45,028-twitterScraper-INFO: Retrying... (Attempts left: 10)
+-2018-09-12 16:59:45,032-twitterScraper-ERROR: ConnectionError HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x118691710>: Failed to establish a new connection: [Errno 50] Network is down',)) while requesting "https://twitter.com/i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare since:2017-06-13 until:2018-09-12&l="
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/connection.py", line 83, in create_connection
+    raise err
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 50] Network is down
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x118691710>: Failed to establish a new connection: [Errno 50] Network is down
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 445, in send
+    timeout=timeout
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x118691710>: Failed to establish a new connection: [Errno 50] Network is down',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 58, in query_single_page
+    resp = requests.get(url, headers=HEADER)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x118691710>: Failed to establish a new connection: [Errno 50] Network is down',))
+-2018-09-12 16:59:45,035-twitterScraper-INFO: Retrying... (Attempts left: 9)
+-2018-09-12 16:59:45,039-twitterScraper-ERROR: ConnectionError HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x118691cf8>: Failed to establish a new connection: [Errno 50] Network is down',)) while requesting "https://twitter.com/i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare since:2017-06-13 until:2018-09-12&l="
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/connection.py", line 83, in create_connection
+    raise err
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 50] Network is down
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x118691cf8>: Failed to establish a new connection: [Errno 50] Network is down
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 445, in send
+    timeout=timeout
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x118691cf8>: Failed to establish a new connection: [Errno 50] Network is down',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 58, in query_single_page
+    resp = requests.get(url, headers=HEADER)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x118691cf8>: Failed to establish a new connection: [Errno 50] Network is down',))
+-2018-09-12 16:59:45,042-twitterScraper-INFO: Retrying... (Attempts left: 8)
+-2018-09-12 16:59:45,047-twitterScraper-ERROR: ConnectionError HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1172c6320>: Failed to establish a new connection: [Errno 50] Network is down',)) while requesting "https://twitter.com/i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare since:2017-06-13 until:2018-09-12&l="
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/connection.py", line 83, in create_connection
+    raise err
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 50] Network is down
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x1172c6320>: Failed to establish a new connection: [Errno 50] Network is down
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 445, in send
+    timeout=timeout
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1172c6320>: Failed to establish a new connection: [Errno 50] Network is down',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 58, in query_single_page
+    resp = requests.get(url, headers=HEADER)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1172c6320>: Failed to establish a new connection: [Errno 50] Network is down',))
+-2018-09-12 16:59:45,049-twitterScraper-INFO: Retrying... (Attempts left: 7)
+-2018-09-12 16:59:45,054-twitterScraper-ERROR: ConnectionError HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1172c6908>: Failed to establish a new connection: [Errno 50] Network is down',)) while requesting "https://twitter.com/i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare since:2017-06-13 until:2018-09-12&l="
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/connection.py", line 83, in create_connection
+    raise err
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 50] Network is down
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x1172c6908>: Failed to establish a new connection: [Errno 50] Network is down
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 445, in send
+    timeout=timeout
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1172c6908>: Failed to establish a new connection: [Errno 50] Network is down',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 58, in query_single_page
+    resp = requests.get(url, headers=HEADER)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1172c6908>: Failed to establish a new connection: [Errno 50] Network is down',))
+-2018-09-12 16:59:45,057-twitterScraper-INFO: Retrying... (Attempts left: 6)
+-2018-09-12 16:59:45,061-twitterScraper-ERROR: ConnectionError HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1172c6ef0>: Failed to establish a new connection: [Errno 50] Network is down',)) while requesting "https://twitter.com/i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare since:2017-06-13 until:2018-09-12&l="
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/connection.py", line 83, in create_connection
+    raise err
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 50] Network is down
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x1172c6ef0>: Failed to establish a new connection: [Errno 50] Network is down
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 445, in send
+    timeout=timeout
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1172c6ef0>: Failed to establish a new connection: [Errno 50] Network is down',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 58, in query_single_page
+    resp = requests.get(url, headers=HEADER)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1172c6ef0>: Failed to establish a new connection: [Errno 50] Network is down',))
+-2018-09-12 16:59:45,063-twitterScraper-INFO: Retrying... (Attempts left: 5)
+-2018-09-12 16:59:45,067-twitterScraper-ERROR: ConnectionError HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x118691a58>: Failed to establish a new connection: [Errno 50] Network is down',)) while requesting "https://twitter.com/i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare since:2017-06-13 until:2018-09-12&l="
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/connection.py", line 83, in create_connection
+    raise err
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 50] Network is down
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x118691a58>: Failed to establish a new connection: [Errno 50] Network is down
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 445, in send
+    timeout=timeout
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x118691a58>: Failed to establish a new connection: [Errno 50] Network is down',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 58, in query_single_page
+    resp = requests.get(url, headers=HEADER)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x118691a58>: Failed to establish a new connection: [Errno 50] Network is down',))
+-2018-09-12 16:59:45,070-twitterScraper-INFO: Retrying... (Attempts left: 4)
+-2018-09-12 16:59:45,074-twitterScraper-ERROR: ConnectionError HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x118691358>: Failed to establish a new connection: [Errno 50] Network is down',)) while requesting "https://twitter.com/i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare since:2017-06-13 until:2018-09-12&l="
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/connection.py", line 83, in create_connection
+    raise err
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 50] Network is down
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x118691358>: Failed to establish a new connection: [Errno 50] Network is down
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 445, in send
+    timeout=timeout
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x118691358>: Failed to establish a new connection: [Errno 50] Network is down',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 58, in query_single_page
+    resp = requests.get(url, headers=HEADER)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x118691358>: Failed to establish a new connection: [Errno 50] Network is down',))
+-2018-09-12 16:59:45,076-twitterScraper-INFO: Retrying... (Attempts left: 3)
+-2018-09-12 16:59:45,080-twitterScraper-ERROR: ConnectionError HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x116f61940>: Failed to establish a new connection: [Errno 50] Network is down',)) while requesting "https://twitter.com/i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare since:2017-06-13 until:2018-09-12&l="
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/connection.py", line 83, in create_connection
+    raise err
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 50] Network is down
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x116f61940>: Failed to establish a new connection: [Errno 50] Network is down
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 445, in send
+    timeout=timeout
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x116f61940>: Failed to establish a new connection: [Errno 50] Network is down',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 58, in query_single_page
+    resp = requests.get(url, headers=HEADER)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x116f61940>: Failed to establish a new connection: [Errno 50] Network is down',))
+-2018-09-12 16:59:45,083-twitterScraper-INFO: Retrying... (Attempts left: 2)
+-2018-09-12 16:59:45,087-twitterScraper-ERROR: ConnectionError HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1172c62b0>: Failed to establish a new connection: [Errno 50] Network is down',)) while requesting "https://twitter.com/i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare since:2017-06-13 until:2018-09-12&l="
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/connection.py", line 83, in create_connection
+    raise err
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 50] Network is down
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x1172c62b0>: Failed to establish a new connection: [Errno 50] Network is down
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 445, in send
+    timeout=timeout
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1172c62b0>: Failed to establish a new connection: [Errno 50] Network is down',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 58, in query_single_page
+    resp = requests.get(url, headers=HEADER)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1172c62b0>: Failed to establish a new connection: [Errno 50] Network is down',))
+-2018-09-12 16:59:45,089-twitterScraper-INFO: Retrying... (Attempts left: 1)
+-2018-09-12 16:59:45,093-twitterScraper-ERROR: ConnectionError HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1172c6198>: Failed to establish a new connection: [Errno 50] Network is down',)) while requesting "https://twitter.com/i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare since:2017-06-13 until:2018-09-12&l="
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 141, in _new_conn
+    (self.host, self.port), self.timeout, **extra_kw)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/connection.py", line 83, in create_connection
+    raise err
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+OSError: [Errno 50] Network is down
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 150, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x1172c6198>: Failed to establish a new connection: [Errno 50] Network is down
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 445, in send
+    timeout=timeout
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1172c6198>: Failed to establish a new connection: [Errno 50] Network is down',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 58, in query_single_page
+    resp = requests.get(url, headers=HEADER)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039528826223521792-1039664884839985156&q=healthcare%20since:2017-06-13%20until:2018-09-12&l= (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x1172c6198>: Failed to establish a new connection: [Errno 50] Network is down',))
+-2018-09-12 16:59:45,096-twitterScraper-ERROR: Giving up.
+-2018-09-12 16:59:45,097-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 16:59:45,100-twitterScraper-INFO: Query done, Got 14977 tweets for healthcare since:2017-06-13 until:2018-09-12.
+-2018-09-12 16:59:45,112-twitterScraper-INFO: Got 14977 / (14977 new)
+-2018-09-12 17:02:14,658-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2007-06-19', 'healthcare since:2007-06-19 until:2008-09-17', 'healthcare since:2008-09-17 until:2009-12-17', 'healthcare since:2009-12-17 until:2011-03-18', 'healthcare since:2011-03-18 until:2012-06-16', 'healthcare since:2012-06-16 until:2013-09-14', 'healthcare since:2013-09-14 until:2014-12-14', 'healthcare since:2014-12-14 until:2016-03-14', 'healthcare since:2016-03-14 until:2017-06-13', 'healthcare since:2017-06-13 until:2018-09-12']
+-2018-09-12 17:02:14,663-twitterScraper-INFO: -- Quering healthcare since:2011-03-18 until:2012-06-16
+-2018-09-12 17:02:14,662-twitterScraper-INFO: -- Quering healthcare since:2008-09-17 until:2009-12-17
+-2018-09-12 17:02:14,665-twitterScraper-INFO: -- Quering healthcare since:2016-03-14 until:2017-06-13
+-2018-09-12 17:02:14,661-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2007-06-19
+-2018-09-12 17:02:14,664-twitterScraper-INFO: -- Quering healthcare since:2013-09-14 until:2014-12-14
+-2018-09-12 17:02:14,665-twitterScraper-INFO: -- Quering healthcare since:2014-12-14 until:2016-03-14
+-2018-09-12 17:02:14,663-twitterScraper-INFO: -- Quering healthcare since:2009-12-17 until:2011-03-18
+-2018-09-12 17:02:14,661-twitterScraper-INFO: -- Quering healthcare since:2007-06-19 until:2008-09-17
+-2018-09-12 17:02:14,664-twitterScraper-INFO: -- Quering healthcare since:2012-06-16 until:2013-09-14
+-2018-09-12 17:02:14,665-twitterScraper-INFO: -- Quering healthcare since:2017-06-13 until:2018-09-12
+-2018-09-12 17:02:15,074-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 17:02:15,087-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 17:02:15,095-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 17:02:15,135-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 17:02:15,151-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2006-03-21 until:2007-06-19.
+-2018-09-12 17:02:15,151-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2012-06-16 until:2013-09-14.
+-2018-09-12 17:02:15,154-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 17:02:15,155-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 17:02:15,152-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2008-09-17 until:2009-12-17.
+-2018-09-12 17:02:15,152-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2009-12-17 until:2011-03-18.
+-2018-09-12 17:02:15,156-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 17:02:15,156-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 17:02:15,176-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 17:02:15,180-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2011-03-18 until:2012-06-16.
+-2018-09-12 17:02:15,182-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 17:02:15,191-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 17:02:15,194-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2016-03-14 until:2017-06-13.
+-2018-09-12 17:02:15,198-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 17:02:15,202-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 17:02:15,205-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2014-12-14 until:2016-03-14.
+-2018-09-12 17:02:15,206-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 17:02:15,206-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 17:02:15,209-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2007-06-19 until:2008-09-17.
+-2018-09-12 17:02:15,211-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 17:02:15,288-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 178, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 17:02:15,290-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2013-09-14 until:2014-12-14.
+-2018-09-12 17:02:15,291-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 17:08:22,462-twitterScraper-INFO: Program interrupted by user. Returning all tweets gathered so far.
+-2018-09-12 17:08:22,462-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 17:08:22,472-twitterScraper-INFO: Query done, Got 4160 tweets for healthcare since:2017-06-13 until:2018-09-12.
+-2018-09-12 17:08:26,732-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2007-06-19', 'healthcare since:2007-06-19 until:2008-09-17', 'healthcare since:2008-09-17 until:2009-12-17', 'healthcare since:2009-12-17 until:2011-03-18', 'healthcare since:2011-03-18 until:2012-06-16', 'healthcare since:2012-06-16 until:2013-09-14', 'healthcare since:2013-09-14 until:2014-12-14', 'healthcare since:2014-12-14 until:2016-03-14', 'healthcare since:2016-03-14 until:2017-06-13', 'healthcare since:2017-06-13 until:2018-09-12']
+-2018-09-12 17:08:26,737-twitterScraper-INFO: -- Quering healthcare since:2011-03-18 until:2012-06-16
+-2018-09-12 17:08:26,737-twitterScraper-INFO: -- Quering healthcare since:2012-06-16 until:2013-09-14
+-2018-09-12 17:08:26,735-twitterScraper-INFO: -- Quering healthcare since:2007-06-19 until:2008-09-17
+-2018-09-12 17:08:26,737-twitterScraper-INFO: -- Quering healthcare since:2013-09-14 until:2014-12-14
+-2018-09-12 17:08:26,736-twitterScraper-INFO: -- Quering healthcare since:2008-09-17 until:2009-12-17
+-2018-09-12 17:08:26,734-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2007-06-19
+-2018-09-12 17:08:26,739-twitterScraper-INFO: -- Quering healthcare since:2016-03-14 until:2017-06-13
+-2018-09-12 17:08:26,739-twitterScraper-INFO: -- Quering healthcare since:2014-12-14 until:2016-03-14
+-2018-09-12 17:08:26,736-twitterScraper-INFO: -- Quering healthcare since:2009-12-17 until:2011-03-18
+-2018-09-12 17:08:26,739-twitterScraper-INFO: -- Quering healthcare since:2017-06-13 until:2018-09-12
+-2018-09-12 17:08:27,162-twitterScraper-INFO: Got 0 tweets for healthcare since:2011-03-18 until:2012-06-16.
+-2018-09-12 17:08:27,197-twitterScraper-INFO: Got 0 tweets for healthcare since:2007-06-19 until:2008-09-17.
+-2018-09-12 17:08:27,224-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 17:08:27,224-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 17:08:27,240-twitterScraper-INFO: Got 0 tweets for healthcare since:2009-12-17 until:2011-03-18.
+-2018-09-12 17:08:27,242-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 17:08:27,273-twitterScraper-INFO: Got 0 tweets for healthcare since:2014-12-14 until:2016-03-14.
+-2018-09-12 17:08:27,276-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 17:08:27,276-twitterScraper-INFO: Got 0 tweets for healthcare since:2006-03-21 until:2007-06-19.
+-2018-09-12 17:08:27,279-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 17:08:27,283-twitterScraper-INFO: Got 0 tweets for healthcare since:2012-06-16 until:2013-09-14.
+-2018-09-12 17:08:27,285-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 17:08:27,292-twitterScraper-INFO: Got 0 tweets for healthcare since:2013-09-14 until:2014-12-14.
+-2018-09-12 17:08:27,294-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 17:08:27,297-twitterScraper-INFO: Got 0 tweets for healthcare since:2008-09-17 until:2009-12-17.
+-2018-09-12 17:08:27,299-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 17:08:27,299-twitterScraper-INFO: Got 0 tweets for healthcare since:2016-03-14 until:2017-06-13.
+-2018-09-12 17:08:27,301-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:04:58,078-twitterScraper-INFO: Program interrupted by user. Returning all tweets gathered so far.
+-2018-09-12 22:04:58,078-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 22:04:58,088-twitterScraper-INFO: Query done, Got 21895 tweets for healthcare since:2017-06-13 until:2018-09-12.
+-2018-09-12 22:05:18,558-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2006-11-03', 'healthcare since:2006-11-03 until:2007-06-19', 'healthcare since:2007-06-19 until:2008-02-02', 'healthcare since:2008-02-02 until:2008-09-17', 'healthcare since:2008-09-17 until:2009-05-03', 'healthcare since:2009-05-03 until:2009-12-17', 'healthcare since:2009-12-17 until:2010-08-02', 'healthcare since:2010-08-02 until:2011-03-18', 'healthcare since:2011-03-18 until:2011-11-01', 'healthcare since:2011-11-01 until:2012-06-16', 'healthcare since:2012-06-16 until:2013-01-29', 'healthcare since:2013-01-29 until:2013-09-14', 'healthcare since:2013-09-14 until:2014-04-30', 'healthcare since:2014-04-30 until:2014-12-14', 'healthcare since:2014-12-14 until:2015-07-30', 'healthcare since:2015-07-30 until:2016-03-14', 'healthcare since:2016-03-14 until:2016-10-28', 'healthcare since:2016-10-28 until:2017-06-13', 'healthcare since:2017-06-13 until:2018-01-27', 'healthcare since:2018-01-27 until:2018-09-12']
+-2018-09-12 22:05:18,562-twitterScraper-INFO: -- Quering healthcare since:2007-06-19 until:2008-02-02
+-2018-09-12 22:05:18,565-twitterScraper-INFO: -- Quering healthcare since:2011-03-18 until:2011-11-01
+-2018-09-12 22:05:18,565-twitterScraper-INFO: -- Quering healthcare since:2011-11-01 until:2012-06-16
+-2018-09-12 22:05:18,563-twitterScraper-INFO: -- Quering healthcare since:2009-05-03 until:2009-12-17
+-2018-09-12 22:05:18,569-twitterScraper-INFO: -- Quering healthcare since:2017-06-13 until:2018-01-27
+-2018-09-12 22:05:18,563-twitterScraper-INFO: -- Quering healthcare since:2008-02-02 until:2008-09-17
+-2018-09-12 22:05:18,561-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2006-11-03
+-2018-09-12 22:05:18,566-twitterScraper-INFO: -- Quering healthcare since:2013-09-14 until:2014-04-30
+-2018-09-12 22:05:18,567-twitterScraper-INFO: -- Quering healthcare since:2014-04-30 until:2014-12-14
+-2018-09-12 22:05:18,565-twitterScraper-INFO: -- Quering healthcare since:2012-06-16 until:2013-01-29
+-2018-09-12 22:05:18,563-twitterScraper-INFO: -- Quering healthcare since:2008-09-17 until:2009-05-03
+-2018-09-12 22:05:18,567-twitterScraper-INFO: -- Quering healthcare since:2014-12-14 until:2015-07-30
+-2018-09-12 22:05:18,566-twitterScraper-INFO: -- Quering healthcare since:2013-01-29 until:2013-09-14
+-2018-09-12 22:05:18,565-twitterScraper-INFO: -- Quering healthcare since:2010-08-02 until:2011-03-18
+-2018-09-12 22:05:18,568-twitterScraper-INFO: -- Quering healthcare since:2016-03-14 until:2016-10-28
+-2018-09-12 22:05:18,564-twitterScraper-INFO: -- Quering healthcare since:2009-12-17 until:2010-08-02
+-2018-09-12 22:05:18,561-twitterScraper-INFO: -- Quering healthcare since:2006-11-03 until:2007-06-19
+-2018-09-12 22:05:18,568-twitterScraper-INFO: -- Quering healthcare since:2015-07-30 until:2016-03-14
+-2018-09-12 22:05:18,569-twitterScraper-INFO: -- Quering healthcare since:2016-10-28 until:2017-06-13
+-2018-09-12 22:05:18,570-twitterScraper-INFO: -- Quering healthcare since:2018-01-27 until:2018-09-12
+-2018-09-12 22:05:19,229-twitterScraper-INFO: Got 0 tweets for healthcare since:2009-05-03 until:2009-12-17.
+-2018-09-12 22:05:19,369-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:19,587-twitterScraper-INFO: Got 0 tweets for healthcare since:2014-12-14 until:2015-07-30.
+-2018-09-12 22:05:19,589-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:19,593-twitterScraper-INFO: Got 0 tweets for healthcare since:2013-09-14 until:2014-04-30.
+-2018-09-12 22:05:19,595-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:19,608-twitterScraper-INFO: Got 0 tweets for healthcare since:2009-12-17 until:2010-08-02.
+-2018-09-12 22:05:19,621-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:19,688-twitterScraper-INFO: Got 0 tweets for healthcare since:2013-01-29 until:2013-09-14.
+-2018-09-12 22:05:19,692-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:19,702-twitterScraper-INFO: Got 0 tweets for healthcare since:2007-06-19 until:2008-02-02.
+-2018-09-12 22:05:19,705-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:19,709-twitterScraper-INFO: Got 0 tweets for healthcare since:2012-06-16 until:2013-01-29.
+-2018-09-12 22:05:19,711-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:19,707-twitterScraper-INFO: Got 0 tweets for healthcare since:2016-03-14 until:2016-10-28.
+-2018-09-12 22:05:19,716-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:19,717-twitterScraper-INFO: Got 0 tweets for healthcare since:2011-03-18 until:2011-11-01.
+-2018-09-12 22:05:19,719-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:19,727-twitterScraper-INFO: Got 0 tweets for healthcare since:2016-10-28 until:2017-06-13.
+-2018-09-12 22:05:19,729-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:19,729-twitterScraper-INFO: Got 0 tweets for healthcare since:2010-08-02 until:2011-03-18.
+-2018-09-12 22:05:19,732-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:19,723-twitterScraper-INFO: Got 0 tweets for healthcare since:2017-06-13 until:2018-01-27.
+-2018-09-12 22:05:19,735-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:19,732-twitterScraper-INFO: Got 0 tweets for healthcare since:2006-03-21 until:2006-11-03.
+-2018-09-12 22:05:19,728-twitterScraper-INFO: Got 0 tweets for healthcare since:2014-04-30 until:2014-12-14.
+-2018-09-12 22:05:19,737-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:19,737-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:19,744-twitterScraper-INFO: Got 0 tweets for healthcare since:2006-11-03 until:2007-06-19.
+-2018-09-12 22:05:19,747-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:19,752-twitterScraper-INFO: Got 0 tweets for healthcare since:2008-09-17 until:2009-05-03.
+-2018-09-12 22:05:19,763-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:19,761-twitterScraper-INFO: Got 0 tweets for healthcare since:2015-07-30 until:2016-03-14.
+-2018-09-12 22:05:19,757-twitterScraper-INFO: Got 0 tweets for healthcare since:2008-02-02 until:2008-09-17.
+-2018-09-12 22:05:19,766-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:19,767-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:19,763-twitterScraper-INFO: Got 0 tweets for healthcare since:2011-11-01 until:2012-06-16.
+-2018-09-12 22:05:19,768-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:49,713-twitterScraper-INFO: Program interrupted by user. Returning all tweets gathered so far.
+-2018-09-12 22:05:49,714-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 22:05:49,856-twitterScraper-INFO: Query done, Got 280 tweets for healthcare since:2018-01-27 until:2018-09-12.
+-2018-09-12 22:05:56,083-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2006-11-03', 'healthcare since:2006-11-03 until:2007-06-19', 'healthcare since:2007-06-19 until:2008-02-02', 'healthcare since:2008-02-02 until:2008-09-17', 'healthcare since:2008-09-17 until:2009-05-03', 'healthcare since:2009-05-03 until:2009-12-17', 'healthcare since:2009-12-17 until:2010-08-02', 'healthcare since:2010-08-02 until:2011-03-18', 'healthcare since:2011-03-18 until:2011-11-01', 'healthcare since:2011-11-01 until:2012-06-16', 'healthcare since:2012-06-16 until:2013-01-29', 'healthcare since:2013-01-29 until:2013-09-14', 'healthcare since:2013-09-14 until:2014-04-30', 'healthcare since:2014-04-30 until:2014-12-14', 'healthcare since:2014-12-14 until:2015-07-30', 'healthcare since:2015-07-30 until:2016-03-14', 'healthcare since:2016-03-14 until:2016-10-28', 'healthcare since:2016-10-28 until:2017-06-13', 'healthcare since:2017-06-13 until:2018-01-27', 'healthcare since:2018-01-27 until:2018-09-12']
+-2018-09-12 22:05:56,090-twitterScraper-INFO: -- Quering healthcare since:2011-03-18 until:2011-11-01
+-2018-09-12 22:05:56,094-twitterScraper-INFO: -- Quering healthcare since:2015-07-30 until:2016-03-14
+-2018-09-12 22:05:56,093-twitterScraper-INFO: -- Quering healthcare since:2014-12-14 until:2015-07-30
+-2018-09-12 22:05:56,092-twitterScraper-INFO: -- Quering healthcare since:2012-06-16 until:2013-01-29
+-2018-09-12 22:05:56,090-twitterScraper-INFO: -- Quering healthcare since:2010-08-02 until:2011-03-18
+-2018-09-12 22:05:56,093-twitterScraper-INFO: -- Quering healthcare since:2013-09-14 until:2014-04-30
+-2018-09-12 22:05:56,086-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2006-11-03
+-2018-09-12 22:05:56,088-twitterScraper-INFO: -- Quering healthcare since:2008-02-02 until:2008-09-17
+-2018-09-12 22:05:56,095-twitterScraper-INFO: -- Quering healthcare since:2016-10-28 until:2017-06-13
+-2018-09-12 22:05:56,093-twitterScraper-INFO: -- Quering healthcare since:2014-04-30 until:2014-12-14
+-2018-09-12 22:05:56,090-twitterScraper-INFO: -- Quering healthcare since:2009-12-17 until:2010-08-02
+-2018-09-12 22:05:56,088-twitterScraper-INFO: -- Quering healthcare since:2006-11-03 until:2007-06-19
+-2018-09-12 22:05:56,091-twitterScraper-INFO: -- Quering healthcare since:2011-11-01 until:2012-06-16
+-2018-09-12 22:05:56,095-twitterScraper-INFO: -- Quering healthcare since:2016-03-14 until:2016-10-28
+-2018-09-12 22:05:56,097-twitterScraper-INFO: -- Quering healthcare since:2018-01-27 until:2018-09-12
+-2018-09-12 22:05:56,095-twitterScraper-INFO: -- Quering healthcare since:2017-06-13 until:2018-01-27
+-2018-09-12 22:05:56,087-twitterScraper-INFO: -- Quering healthcare since:2007-06-19 until:2008-02-02
+-2018-09-12 22:05:56,092-twitterScraper-INFO: -- Quering healthcare since:2013-01-29 until:2013-09-14
+-2018-09-12 22:05:56,088-twitterScraper-INFO: -- Quering healthcare since:2008-09-17 until:2009-05-03
+-2018-09-12 22:05:56,089-twitterScraper-INFO: -- Quering healthcare since:2009-05-03 until:2009-12-17
+-2018-09-12 22:05:57,072-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 162, in query_tweets_once_generator
+    pos is None, db=db, kw=kw
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 80, in query_single_page
+    return 0, notationDecl(name, publicId, systemId)
+NameError: name 'notationDecl' is not defined
+-2018-09-12 22:05:57,083-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 162, in query_tweets_once_generator
+    pos is None, db=db, kw=kw
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 80, in query_single_page
+    return 0, notationDecl(name, publicId, systemId)
+NameError: name 'notationDecl' is not defined
+-2018-09-12 22:05:57,084-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2013-09-14 until:2014-04-30.
+-2018-09-12 22:05:57,088-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:57,087-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2015-07-30 until:2016-03-14.
+-2018-09-12 22:05:57,090-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:57,100-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 162, in query_tweets_once_generator
+    pos is None, db=db, kw=kw
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 80, in query_single_page
+    return 0, notationDecl(name, publicId, systemId)
+NameError: name 'notationDecl' is not defined
+-2018-09-12 22:05:57,103-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2014-12-14 until:2015-07-30.
+-2018-09-12 22:05:57,105-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:57,111-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 162, in query_tweets_once_generator
+    pos is None, db=db, kw=kw
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 80, in query_single_page
+    return 0, notationDecl(name, publicId, systemId)
+NameError: name 'notationDecl' is not defined
+-2018-09-12 22:05:57,129-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2013-01-29 until:2013-09-14.
+-2018-09-12 22:05:57,135-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:57,145-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 162, in query_tweets_once_generator
+    pos is None, db=db, kw=kw
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 80, in query_single_page
+    return 0, notationDecl(name, publicId, systemId)
+NameError: name 'notationDecl' is not defined
+-2018-09-12 22:05:57,163-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2011-11-01 until:2012-06-16.
+-2018-09-12 22:05:57,165-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:57,175-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 162, in query_tweets_once_generator
+    pos is None, db=db, kw=kw
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 80, in query_single_page
+    return 0, notationDecl(name, publicId, systemId)
+NameError: name 'notationDecl' is not defined
+-2018-09-12 22:05:57,180-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2006-03-21 until:2006-11-03.
+-2018-09-12 22:05:57,181-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:57,192-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 162, in query_tweets_once_generator
+    pos is None, db=db, kw=kw
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 80, in query_single_page
+    return 0, notationDecl(name, publicId, systemId)
+NameError: name 'notationDecl' is not defined
+-2018-09-12 22:05:57,205-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 162, in query_tweets_once_generator
+    pos is None, db=db, kw=kw
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 80, in query_single_page
+    return 0, notationDecl(name, publicId, systemId)
+NameError: name 'notationDecl' is not defined
+-2018-09-12 22:05:57,208-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2009-12-17 until:2010-08-02.
+-2018-09-12 22:05:57,211-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:57,208-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 162, in query_tweets_once_generator
+    pos is None, db=db, kw=kw
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 80, in query_single_page
+    return 0, notationDecl(name, publicId, systemId)
+NameError: name 'notationDecl' is not defined
+-2018-09-12 22:05:57,211-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2016-10-28 until:2017-06-13.
+-2018-09-12 22:05:57,214-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:57,222-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 162, in query_tweets_once_generator
+    pos is None, db=db, kw=kw
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 80, in query_single_page
+    return 0, notationDecl(name, publicId, systemId)
+NameError: name 'notationDecl' is not defined
+-2018-09-12 22:05:57,225-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2012-06-16 until:2013-01-29.
+-2018-09-12 22:05:57,227-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:57,228-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 162, in query_tweets_once_generator
+    pos is None, db=db, kw=kw
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 80, in query_single_page
+    return 0, notationDecl(name, publicId, systemId)
+NameError: name 'notationDecl' is not defined
+-2018-09-12 22:05:57,230-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2017-06-13 until:2018-01-27.
+-2018-09-12 22:05:57,232-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:57,231-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 162, in query_tweets_once_generator
+    pos is None, db=db, kw=kw
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 80, in query_single_page
+    return 0, notationDecl(name, publicId, systemId)
+NameError: name 'notationDecl' is not defined
+-2018-09-12 22:05:57,238-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 162, in query_tweets_once_generator
+    pos is None, db=db, kw=kw
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 80, in query_single_page
+    return 0, notationDecl(name, publicId, systemId)
+NameError: name 'notationDecl' is not defined
+-2018-09-12 22:05:57,237-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 162, in query_tweets_once_generator
+    pos is None, db=db, kw=kw
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 80, in query_single_page
+    return 0, notationDecl(name, publicId, systemId)
+NameError: name 'notationDecl' is not defined
+-2018-09-12 22:05:57,244-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 162, in query_tweets_once_generator
+    pos is None, db=db, kw=kw
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 80, in query_single_page
+    return 0, notationDecl(name, publicId, systemId)
+NameError: name 'notationDecl' is not defined
+-2018-09-12 22:05:57,248-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2006-11-03 until:2007-06-19.
+-2018-09-12 22:05:57,255-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:57,250-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2008-02-02 until:2008-09-17.
+-2018-09-12 22:05:57,255-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:57,249-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2014-04-30 until:2014-12-14.
+-2018-09-12 22:05:57,253-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2010-08-02 until:2011-03-18.
+-2018-09-12 22:05:57,256-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:57,257-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:57,195-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2007-06-19 until:2008-02-02.
+-2018-09-12 22:05:57,258-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:57,263-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 162, in query_tweets_once_generator
+    pos is None, db=db, kw=kw
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 80, in query_single_page
+    return 0, notationDecl(name, publicId, systemId)
+NameError: name 'notationDecl' is not defined
+-2018-09-12 22:05:57,269-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2011-03-18 until:2011-11-01.
+-2018-09-12 22:05:57,273-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:57,269-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 162, in query_tweets_once_generator
+    pos is None, db=db, kw=kw
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 80, in query_single_page
+    return 0, notationDecl(name, publicId, systemId)
+NameError: name 'notationDecl' is not defined
+-2018-09-12 22:05:57,274-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2008-09-17 until:2009-05-03.
+-2018-09-12 22:05:57,277-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:57,278-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 162, in query_tweets_once_generator
+    pos is None, db=db, kw=kw
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 80, in query_single_page
+    return 0, notationDecl(name, publicId, systemId)
+NameError: name 'notationDecl' is not defined
+-2018-09-12 22:05:57,286-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2016-03-14 until:2016-10-28.
+-2018-09-12 22:05:57,291-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:05:57,291-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 162, in query_tweets_once_generator
+    pos is None, db=db, kw=kw
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 80, in query_single_page
+    return 0, notationDecl(name, publicId, systemId)
+NameError: name 'notationDecl' is not defined
+-2018-09-12 22:05:57,298-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2009-05-03 until:2009-12-17.
+-2018-09-12 22:05:57,302-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:06:19,785-twitterScraper-INFO: Program interrupted by user. Returning all tweets gathered so far.
+-2018-09-12 22:06:19,785-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 22:06:19,819-twitterScraper-INFO: Query done, Got 240 tweets for healthcare since:2018-01-27 until:2018-09-12.
+-2018-09-12 22:06:28,330-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2006-11-03', 'healthcare since:2006-11-03 until:2007-06-19', 'healthcare since:2007-06-19 until:2008-02-02', 'healthcare since:2008-02-02 until:2008-09-17', 'healthcare since:2008-09-17 until:2009-05-03', 'healthcare since:2009-05-03 until:2009-12-17', 'healthcare since:2009-12-17 until:2010-08-02', 'healthcare since:2010-08-02 until:2011-03-18', 'healthcare since:2011-03-18 until:2011-11-01', 'healthcare since:2011-11-01 until:2012-06-16', 'healthcare since:2012-06-16 until:2013-01-29', 'healthcare since:2013-01-29 until:2013-09-14', 'healthcare since:2013-09-14 until:2014-04-30', 'healthcare since:2014-04-30 until:2014-12-14', 'healthcare since:2014-12-14 until:2015-07-30', 'healthcare since:2015-07-30 until:2016-03-14', 'healthcare since:2016-03-14 until:2016-10-28', 'healthcare since:2016-10-28 until:2017-06-13', 'healthcare since:2017-06-13 until:2018-01-27', 'healthcare since:2018-01-27 until:2018-09-12']
+-2018-09-12 22:06:28,342-twitterScraper-INFO: -- Quering healthcare since:2014-04-30 until:2014-12-14
+-2018-09-12 22:06:28,340-twitterScraper-INFO: -- Quering healthcare since:2012-06-16 until:2013-01-29
+-2018-09-12 22:06:28,345-twitterScraper-INFO: -- Quering healthcare since:2017-06-13 until:2018-01-27
+-2018-09-12 22:06:28,335-twitterScraper-INFO: -- Quering healthcare since:2008-02-02 until:2008-09-17
+-2018-09-12 22:06:28,334-twitterScraper-INFO: -- Quering healthcare since:2007-06-19 until:2008-02-02
+-2018-09-12 22:06:28,336-twitterScraper-INFO: -- Quering healthcare since:2008-09-17 until:2009-05-03
+-2018-09-12 22:06:28,346-twitterScraper-INFO: -- Quering healthcare since:2018-01-27 until:2018-09-12
+-2018-09-12 22:06:28,337-twitterScraper-INFO: -- Quering healthcare since:2010-08-02 until:2011-03-18
+-2018-09-12 22:06:28,333-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2006-11-03
+-2018-09-12 22:06:28,340-twitterScraper-INFO: -- Quering healthcare since:2013-01-29 until:2013-09-14
+-2018-09-12 22:06:28,342-twitterScraper-INFO: -- Quering healthcare since:2014-12-14 until:2015-07-30
+-2018-09-12 22:06:28,334-twitterScraper-INFO: -- Quering healthcare since:2006-11-03 until:2007-06-19
+-2018-09-12 22:06:28,337-twitterScraper-INFO: -- Quering healthcare since:2009-12-17 until:2010-08-02
+-2018-09-12 22:06:28,342-twitterScraper-INFO: -- Quering healthcare since:2015-07-30 until:2016-03-14
+-2018-09-12 22:06:28,339-twitterScraper-INFO: -- Quering healthcare since:2011-11-01 until:2012-06-16
+-2018-09-12 22:06:28,344-twitterScraper-INFO: -- Quering healthcare since:2016-10-28 until:2017-06-13
+-2018-09-12 22:06:28,341-twitterScraper-INFO: -- Quering healthcare since:2013-09-14 until:2014-04-30
+-2018-09-12 22:06:28,339-twitterScraper-INFO: -- Quering healthcare since:2011-03-18 until:2011-11-01
+-2018-09-12 22:06:28,337-twitterScraper-INFO: -- Quering healthcare since:2009-05-03 until:2009-12-17
+-2018-09-12 22:06:28,344-twitterScraper-INFO: -- Quering healthcare since:2016-03-14 until:2016-10-28
+-2018-09-12 22:06:28,999-twitterScraper-INFO: Got 0 tweets for healthcare since:2013-09-14 until:2014-04-30.
+-2018-09-12 22:06:29,103-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:06:29,245-twitterScraper-INFO: Got 0 tweets for healthcare since:2014-04-30 until:2014-12-14.
+-2018-09-12 22:06:29,247-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:06:29,252-twitterScraper-INFO: Got 0 tweets for healthcare since:2008-02-02 until:2008-09-17.
+-2018-09-12 22:06:29,270-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:06:29,281-twitterScraper-INFO: Got 0 tweets for healthcare since:2007-06-19 until:2008-02-02.
+-2018-09-12 22:06:29,285-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:06:29,283-twitterScraper-INFO: Got 0 tweets for healthcare since:2006-03-21 until:2006-11-03.
+-2018-09-12 22:06:29,286-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:06:29,302-twitterScraper-INFO: Got 0 tweets for healthcare since:2009-05-03 until:2009-12-17.
+-2018-09-12 22:06:29,311-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:06:29,310-twitterScraper-INFO: Got 0 tweets for healthcare since:2011-11-01 until:2012-06-16.
+-2018-09-12 22:06:29,312-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:06:29,328-twitterScraper-INFO: Got 0 tweets for healthcare since:2017-06-13 until:2018-01-27.
+-2018-09-12 22:06:29,332-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:06:29,413-twitterScraper-INFO: Got 0 tweets for healthcare since:2008-09-17 until:2009-05-03.
+-2018-09-12 22:06:29,415-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:06:29,436-twitterScraper-INFO: Got 0 tweets for healthcare since:2016-03-14 until:2016-10-28.
+-2018-09-12 22:06:29,438-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:06:29,442-twitterScraper-INFO: Got 0 tweets for healthcare since:2013-01-29 until:2013-09-14.
+-2018-09-12 22:06:29,444-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:06:29,376-twitterScraper-INFO: Got 0 tweets for healthcare since:2006-11-03 until:2007-06-19.
+-2018-09-12 22:06:29,447-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:06:29,446-twitterScraper-INFO: Got 0 tweets for healthcare since:2016-10-28 until:2017-06-13.
+-2018-09-12 22:06:29,449-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:06:29,447-twitterScraper-INFO: Got 0 tweets for healthcare since:2012-06-16 until:2013-01-29.
+-2018-09-12 22:06:29,450-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:06:29,453-twitterScraper-INFO: Got 0 tweets for healthcare since:2014-12-14 until:2015-07-30.
+-2018-09-12 22:06:29,455-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:06:29,455-twitterScraper-INFO: Got 0 tweets for healthcare since:2015-07-30 until:2016-03-14.
+-2018-09-12 22:06:29,456-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:06:29,445-twitterScraper-INFO: Got 0 tweets for healthcare since:2010-08-02 until:2011-03-18.
+-2018-09-12 22:06:29,460-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:06:29,455-twitterScraper-INFO: Got 0 tweets for healthcare since:2011-03-18 until:2011-11-01.
+-2018-09-12 22:06:29,461-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:06:29,459-twitterScraper-INFO: Got 0 tweets for healthcare since:2009-12-17 until:2010-08-02.
+-2018-09-12 22:06:29,462-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:53:38,489-twitterScraper-ERROR: ConnectionError HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039423360063565826-1039664884839985156&q=healthcare%20since:2018-01-27%20until:2018-09-12&l= (Caused by SSLError(SSLError("bad handshake: SysCallError(54, 'ECONNRESET')",),)) while requesting "https://twitter.com/i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039423360063565826-1039664884839985156&q=healthcare since:2018-01-27 until:2018-09-12&l="
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 441, in wrap_socket
+    cnx.do_handshake()
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/OpenSSL/SSL.py", line 1907, in do_handshake
+    self._raise_ssl_error(self._ssl, result)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/OpenSSL/SSL.py", line 1631, in _raise_ssl_error
+    raise SysCallError(errno, errorcode.get(errno))
+OpenSSL.SSL.SysCallError: (54, 'ECONNRESET')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 326, in connect
+    ssl_context=context)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 329, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 448, in wrap_socket
+    raise ssl.SSLError('bad handshake: %r' % e)
+ssl.SSLError: ("bad handshake: SysCallError(54, 'ECONNRESET')",)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 445, in send
+    timeout=timeout
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039423360063565826-1039664884839985156&q=healthcare%20since:2018-01-27%20until:2018-09-12&l= (Caused by SSLError(SSLError("bad handshake: SysCallError(54, 'ECONNRESET')",),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 58, in query_single_page
+    resp = requests.get(url, headers=HEADER)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/yuhangzhan/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 511, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='twitter.com', port=443): Max retries exceeded with url: /i/search/timeline?f=tweets&vertical=default&include_available_features=1&include_entities=1&reset_error_state=false&src=typd&max_position=TWEET-1039423360063565826-1039664884839985156&q=healthcare%20since:2018-01-27%20until:2018-09-12&l= (Caused by SSLError(SSLError("bad handshake: SysCallError(54, 'ECONNRESET')",),))
+-2018-09-12 22:53:38,530-twitterScraper-INFO: Retrying... (Attempts left: 10)
+-2018-09-12 22:57:51,781-twitterScraper-INFO: Program interrupted by user. Returning all tweets gathered so far.
+-2018-09-12 22:57:51,781-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 22:57:51,973-twitterScraper-INFO: Query done, Got 25933 tweets for healthcare since:2018-01-27 until:2018-09-12.
+-2018-09-12 22:58:10,730-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2006-11-03', 'healthcare since:2006-11-03 until:2007-06-19', 'healthcare since:2007-06-19 until:2008-02-02', 'healthcare since:2008-02-02 until:2008-09-17', 'healthcare since:2008-09-17 until:2009-05-03', 'healthcare since:2009-05-03 until:2009-12-17', 'healthcare since:2009-12-17 until:2010-08-02', 'healthcare since:2010-08-02 until:2011-03-18', 'healthcare since:2011-03-18 until:2011-11-01', 'healthcare since:2011-11-01 until:2012-06-16', 'healthcare since:2012-06-16 until:2013-01-29', 'healthcare since:2013-01-29 until:2013-09-14', 'healthcare since:2013-09-14 until:2014-04-30', 'healthcare since:2014-04-30 until:2014-12-14', 'healthcare since:2014-12-14 until:2015-07-30', 'healthcare since:2015-07-30 until:2016-03-14', 'healthcare since:2016-03-14 until:2016-10-28', 'healthcare since:2016-10-28 until:2017-06-13', 'healthcare since:2017-06-13 until:2018-01-27', 'healthcare since:2018-01-27 until:2018-09-12']
+-2018-09-12 22:58:10,736-twitterScraper-INFO: -- Quering healthcare since:2009-12-17 until:2010-08-02
+-2018-09-12 22:58:10,745-twitterScraper-INFO: -- Quering healthcare since:2018-01-27 until:2018-09-12
+-2018-09-12 22:58:10,744-twitterScraper-INFO: -- Quering healthcare since:2016-10-28 until:2017-06-13
+-2018-09-12 22:58:10,739-twitterScraper-INFO: -- Quering healthcare since:2012-06-16 until:2013-01-29
+-2018-09-12 22:58:10,740-twitterScraper-INFO: -- Quering healthcare since:2013-09-14 until:2014-04-30
+-2018-09-12 22:58:10,737-twitterScraper-INFO: -- Quering healthcare since:2011-03-18 until:2011-11-01
+-2018-09-12 22:58:10,738-twitterScraper-INFO: -- Quering healthcare since:2011-11-01 until:2012-06-16
+-2018-09-12 22:58:10,741-twitterScraper-INFO: -- Quering healthcare since:2014-04-30 until:2014-12-14
+-2018-09-12 22:58:10,737-twitterScraper-INFO: -- Quering healthcare since:2010-08-02 until:2011-03-18
+-2018-09-12 22:58:10,734-twitterScraper-INFO: -- Quering healthcare since:2007-06-19 until:2008-02-02
+-2018-09-12 22:58:10,735-twitterScraper-INFO: -- Quering healthcare since:2008-02-02 until:2008-09-17
+-2018-09-12 22:58:10,736-twitterScraper-INFO: -- Quering healthcare since:2009-05-03 until:2009-12-17
+-2018-09-12 22:58:10,743-twitterScraper-INFO: -- Quering healthcare since:2016-03-14 until:2016-10-28
+-2018-09-12 22:58:10,734-twitterScraper-INFO: -- Quering healthcare since:2006-11-03 until:2007-06-19
+-2018-09-12 22:58:10,735-twitterScraper-INFO: -- Quering healthcare since:2008-09-17 until:2009-05-03
+-2018-09-12 22:58:10,743-twitterScraper-INFO: -- Quering healthcare since:2015-07-30 until:2016-03-14
+-2018-09-12 22:58:10,743-twitterScraper-INFO: -- Quering healthcare since:2014-12-14 until:2015-07-30
+-2018-09-12 22:58:10,745-twitterScraper-INFO: -- Quering healthcare since:2017-06-13 until:2018-01-27
+-2018-09-12 22:58:10,739-twitterScraper-INFO: -- Quering healthcare since:2013-01-29 until:2013-09-14
+-2018-09-12 22:58:10,733-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2006-11-03
+-2018-09-12 22:58:12,032-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 167, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 22:58:12,034-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 167, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 22:58:12,038-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2012-06-16 until:2013-01-29.
+-2018-09-12 22:58:12,039-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2014-12-14 until:2015-07-30.
+-2018-09-12 22:58:12,044-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:58:12,042-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 167, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 22:58:12,046-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:58:12,045-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2014-04-30 until:2014-12-14.
+-2018-09-12 22:58:12,051-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:58:12,025-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 167, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 22:58:12,054-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2016-10-28 until:2017-06-13.
+-2018-09-12 22:58:12,067-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:58:12,069-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 167, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 22:58:12,071-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2008-09-17 until:2009-05-03.
+-2018-09-12 22:58:12,073-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 167, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 22:58:12,076-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:58:12,074-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 167, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 22:58:12,076-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2008-02-02 until:2008-09-17.
+-2018-09-12 22:58:12,077-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2013-09-14 until:2014-04-30.
+-2018-09-12 22:58:12,085-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:58:12,082-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 167, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 22:58:12,085-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:58:12,085-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2009-12-17 until:2010-08-02.
+-2018-09-12 22:58:12,091-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:58:12,095-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 167, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 22:58:12,097-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2011-03-18 until:2011-11-01.
+-2018-09-12 22:58:12,102-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:58:12,101-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 167, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 22:58:12,104-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2011-11-01 until:2012-06-16.
+-2018-09-12 22:58:12,109-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:58:12,103-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 167, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 22:58:12,110-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2015-07-30 until:2016-03-14.
+-2018-09-12 22:58:12,116-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:58:12,129-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 167, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 22:58:12,133-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2010-08-02 until:2011-03-18.
+-2018-09-12 22:58:12,136-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 167, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 22:58:12,139-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:58:12,138-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2009-05-03 until:2009-12-17.
+-2018-09-12 22:58:12,139-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 167, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 22:58:12,139-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 167, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 22:58:12,143-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:58:12,142-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2007-06-19 until:2008-02-02.
+-2018-09-12 22:58:12,143-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2006-11-03 until:2007-06-19.
+-2018-09-12 22:58:12,149-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:58:12,149-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:58:12,152-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 167, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 22:58:12,155-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 167, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 22:58:12,155-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2013-01-29 until:2013-09-14.
+-2018-09-12 22:58:12,155-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 167, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 22:58:12,157-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2006-03-21 until:2006-11-03.
+-2018-09-12 22:58:12,157-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2017-06-13 until:2018-01-27.
+-2018-09-12 22:58:12,162-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:58:12,162-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:58:12,163-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:58:12,301-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 167, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 22:58:12,303-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2016-03-14 until:2016-10-28.
+-2018-09-12 22:58:12,308-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 22:58:13,169-twitterScraper-ERROR: An unknown error occurred! Returning tweets gathered so far.
+Traceback (most recent call last):
+  File "/Users/yuhangzhan/Github/crawlers/twitter/twitterCrawler/twitterCrawler.py", line 167, in query_tweets_once_generator
+    for t in range(new_tweets):
+TypeError: 'list' object cannot be interpreted as an integer
+-2018-09-12 22:58:13,171-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2018-01-27 until:2018-09-12.
+-2018-09-12 22:58:13,177-twitterScraper-INFO: Got 0 / (0 new)
+-2018-09-12 23:06:31,330-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2006-11-03', 'healthcare since:2006-11-03 until:2007-06-19', 'healthcare since:2007-06-19 until:2008-02-02', 'healthcare since:2008-02-02 until:2008-09-17', 'healthcare since:2008-09-17 until:2009-05-03', 'healthcare since:2009-05-03 until:2009-12-17', 'healthcare since:2009-12-17 until:2010-08-02', 'healthcare since:2010-08-02 until:2011-03-18', 'healthcare since:2011-03-18 until:2011-11-01', 'healthcare since:2011-11-01 until:2012-06-16', 'healthcare since:2012-06-16 until:2013-01-29', 'healthcare since:2013-01-29 until:2013-09-14', 'healthcare since:2013-09-14 until:2014-04-30', 'healthcare since:2014-04-30 until:2014-12-14', 'healthcare since:2014-12-14 until:2015-07-30', 'healthcare since:2015-07-30 until:2016-03-14', 'healthcare since:2016-03-14 until:2016-10-28', 'healthcare since:2016-10-28 until:2017-06-13', 'healthcare since:2017-06-13 until:2018-01-27', 'healthcare since:2018-01-27 until:2018-09-12']
+-2018-09-12 23:06:31,343-twitterScraper-INFO: -- Quering healthcare since:2014-12-14 until:2015-07-30
+-2018-09-12 23:06:31,336-twitterScraper-INFO: -- Quering healthcare since:2006-11-03 until:2007-06-19
+-2018-09-12 23:06:31,340-twitterScraper-INFO: -- Quering healthcare since:2013-01-29 until:2013-09-14
+-2018-09-12 23:06:31,340-twitterScraper-INFO: -- Quering healthcare since:2011-03-18 until:2011-11-01
+-2018-09-12 23:06:31,342-twitterScraper-INFO: -- Quering healthcare since:2013-09-14 until:2014-04-30
+-2018-09-12 23:06:31,335-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2006-11-03
+-2018-09-12 23:06:31,338-twitterScraper-INFO: -- Quering healthcare since:2009-05-03 until:2009-12-17
+-2018-09-12 23:06:31,338-twitterScraper-INFO: -- Quering healthcare since:2009-12-17 until:2010-08-02
+-2018-09-12 23:06:31,336-twitterScraper-INFO: -- Quering healthcare since:2008-02-02 until:2008-09-17
+-2018-09-12 23:06:31,337-twitterScraper-INFO: -- Quering healthcare since:2008-09-17 until:2009-05-03
+-2018-09-12 23:06:31,344-twitterScraper-INFO: -- Quering healthcare since:2016-03-14 until:2016-10-28
+-2018-09-12 23:06:31,340-twitterScraper-INFO: -- Quering healthcare since:2011-11-01 until:2012-06-16
+-2018-09-12 23:06:31,345-twitterScraper-INFO: -- Quering healthcare since:2017-06-13 until:2018-01-27
+-2018-09-12 23:06:31,345-twitterScraper-INFO: -- Quering healthcare since:2018-01-27 until:2018-09-12
+-2018-09-12 23:06:31,344-twitterScraper-INFO: -- Quering healthcare since:2016-10-28 until:2017-06-13
+-2018-09-12 23:06:31,344-twitterScraper-INFO: -- Quering healthcare since:2015-07-30 until:2016-03-14
+-2018-09-12 23:06:31,342-twitterScraper-INFO: -- Quering healthcare since:2014-04-30 until:2014-12-14
+-2018-09-12 23:06:31,339-twitterScraper-INFO: -- Quering healthcare since:2010-08-02 until:2011-03-18
+-2018-09-12 23:06:31,336-twitterScraper-INFO: -- Quering healthcare since:2007-06-19 until:2008-02-02
+-2018-09-12 23:06:31,341-twitterScraper-INFO: -- Quering healthcare since:2012-06-16 until:2013-01-29
+-2018-09-12 23:09:56,937-twitterScraper-INFO: Program interrupted by user. Returning all tweets gathered so far.
+-2018-09-12 23:09:56,939-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:09:56,940-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:09:56,940-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:09:56,939-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:09:56,940-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:09:56,940-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:09:56,939-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:09:56,939-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:09:56,939-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:09:56,940-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:09:56,940-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:09:56,939-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:09:56,939-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:09:56,938-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:09:56,940-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:09:56,939-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:09:56,940-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:09:56,940-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:09:56,940-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:09:56,950-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:09:56,954-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2013-09-14 until:2014-04-30.
+-2018-09-12 23:09:56,954-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2016-03-14 until:2016-10-28.
+-2018-09-12 23:09:56,955-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2006-11-03 until:2007-06-19.
+-2018-09-12 23:09:56,958-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2015-07-30 until:2016-03-14.
+-2018-09-12 23:09:56,953-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2012-06-16 until:2013-01-29.
+-2018-09-12 23:09:56,954-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2016-10-28 until:2017-06-13.
+-2018-09-12 23:09:56,957-twitterScraper-INFO: Query done, Got 1680 tweets for healthcare since:2018-01-27 until:2018-09-12.
+-2018-09-12 23:09:56,957-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2009-05-03 until:2009-12-17.
+-2018-09-12 23:09:56,958-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2014-12-14 until:2015-07-30.
+-2018-09-12 23:09:56,961-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2013-01-29 until:2013-09-14.
+-2018-09-12 23:09:56,955-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2011-11-01 until:2012-06-16.
+-2018-09-12 23:09:56,955-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2010-08-02 until:2011-03-18.
+-2018-09-12 23:09:56,954-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2006-03-21 until:2006-11-03.
+-2018-09-12 23:09:56,960-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2017-06-13 until:2018-01-27.
+-2018-09-12 23:09:56,965-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2007-06-19 until:2008-02-02.
+-2018-09-12 23:09:56,962-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2011-03-18 until:2011-11-01.
+-2018-09-12 23:09:56,961-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2008-02-02 until:2008-09-17.
+-2018-09-12 23:09:56,963-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2009-12-17 until:2010-08-02.
+-2018-09-12 23:09:56,969-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2008-09-17 until:2009-05-03.
+-2018-09-12 23:09:56,969-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2014-04-30 until:2014-12-14.
+-2018-09-12 23:10:53,152-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2006-11-03', 'healthcare since:2006-11-03 until:2007-06-19', 'healthcare since:2007-06-19 until:2008-02-02', 'healthcare since:2008-02-02 until:2008-09-17', 'healthcare since:2008-09-17 until:2009-05-03', 'healthcare since:2009-05-03 until:2009-12-17', 'healthcare since:2009-12-17 until:2010-08-02', 'healthcare since:2010-08-02 until:2011-03-18', 'healthcare since:2011-03-18 until:2011-11-01', 'healthcare since:2011-11-01 until:2012-06-16', 'healthcare since:2012-06-16 until:2013-01-29', 'healthcare since:2013-01-29 until:2013-09-14', 'healthcare since:2013-09-14 until:2014-04-30', 'healthcare since:2014-04-30 until:2014-12-14', 'healthcare since:2014-12-14 until:2015-07-30', 'healthcare since:2015-07-30 until:2016-03-14', 'healthcare since:2016-03-14 until:2016-10-28', 'healthcare since:2016-10-28 until:2017-06-13', 'healthcare since:2017-06-13 until:2018-01-27', 'healthcare since:2018-01-27 until:2018-09-12']
+-2018-09-12 23:10:53,156-twitterScraper-INFO: -- Quering healthcare since:2008-02-02 until:2008-09-17
+-2018-09-12 23:10:53,161-twitterScraper-INFO: -- Quering healthcare since:2012-06-16 until:2013-01-29
+-2018-09-12 23:10:53,155-twitterScraper-INFO: -- Quering healthcare since:2007-06-19 until:2008-02-02
+-2018-09-12 23:10:53,164-twitterScraper-INFO: -- Quering healthcare since:2016-03-14 until:2016-10-28
+-2018-09-12 23:10:53,158-twitterScraper-INFO: -- Quering healthcare since:2009-05-03 until:2009-12-17
+-2018-09-12 23:10:53,159-twitterScraper-INFO: -- Quering healthcare since:2010-08-02 until:2011-03-18
+-2018-09-12 23:10:53,155-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2006-11-03
+-2018-09-12 23:10:53,162-twitterScraper-INFO: -- Quering healthcare since:2013-09-14 until:2014-04-30
+-2018-09-12 23:10:53,158-twitterScraper-INFO: -- Quering healthcare since:2009-12-17 until:2010-08-02
+-2018-09-12 23:10:53,162-twitterScraper-INFO: -- Quering healthcare since:2014-12-14 until:2015-07-30
+-2018-09-12 23:10:53,161-twitterScraper-INFO: -- Quering healthcare since:2014-04-30 until:2014-12-14
+-2018-09-12 23:10:53,159-twitterScraper-INFO: -- Quering healthcare since:2011-03-18 until:2011-11-01
+-2018-09-12 23:10:53,163-twitterScraper-INFO: -- Quering healthcare since:2015-07-30 until:2016-03-14
+-2018-09-12 23:10:53,165-twitterScraper-INFO: -- Quering healthcare since:2018-01-27 until:2018-09-12
+-2018-09-12 23:10:53,164-twitterScraper-INFO: -- Quering healthcare since:2017-06-13 until:2018-01-27
+-2018-09-12 23:10:53,156-twitterScraper-INFO: -- Quering healthcare since:2006-11-03 until:2007-06-19
+-2018-09-12 23:10:53,163-twitterScraper-INFO: -- Quering healthcare since:2016-10-28 until:2017-06-13
+-2018-09-12 23:10:53,161-twitterScraper-INFO: -- Quering healthcare since:2013-01-29 until:2013-09-14
+-2018-09-12 23:10:53,159-twitterScraper-INFO: -- Quering healthcare since:2011-11-01 until:2012-06-16
+-2018-09-12 23:10:53,158-twitterScraper-INFO: -- Quering healthcare since:2008-09-17 until:2009-05-03
+-2018-09-12 23:11:56,664-twitterScraper-INFO: Program interrupted by user. Returning all tweets gathered so far.
+-2018-09-12 23:11:56,665-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:11:56,665-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:11:56,664-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:11:56,665-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:11:56,665-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:11:56,665-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:11:56,666-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:11:56,666-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:11:56,666-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:11:56,681-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2013-09-14 until:2014-04-30.
+-2018-09-12 23:11:56,681-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2010-08-02 until:2011-03-18.
+-2018-09-12 23:11:56,680-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2009-12-17 until:2010-08-02.
+-2018-09-12 23:11:56,678-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2016-10-28 until:2017-06-13.
+-2018-09-12 23:11:56,680-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2011-11-01 until:2012-06-16.
+-2018-09-12 23:11:56,681-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2006-03-21 until:2006-11-03.
+-2018-09-12 23:11:56,681-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2012-06-16 until:2013-01-29.
+-2018-09-12 23:11:56,684-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2011-03-18 until:2011-11-01.
+-2018-09-12 23:11:56,677-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2014-12-14 until:2015-07-30.
+-2018-09-12 23:11:56,689-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:11:56,691-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2008-02-02 until:2008-09-17.
+-2018-09-12 23:11:56,690-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:11:56,694-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2008-09-17 until:2009-05-03.
+-2018-09-12 23:11:56,699-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:11:56,699-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:11:56,701-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2016-03-14 until:2016-10-28.
+-2018-09-12 23:11:56,702-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:11:56,703-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2013-01-29 until:2013-09-14.
+-2018-09-12 23:11:56,706-twitterScraper-INFO: Query done, Got 660 tweets for healthcare since:2018-01-27 until:2018-09-12.
+-2018-09-12 23:11:56,709-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:11:56,699-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:11:56,728-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:11:56,710-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:11:56,731-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:11:56,709-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:11:56,738-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2017-06-13 until:2018-01-27.
+-2018-09-12 23:11:56,738-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2014-04-30 until:2014-12-14.
+-2018-09-12 23:11:56,738-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2015-07-30 until:2016-03-14.
+-2018-09-12 23:11:56,739-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2006-11-03 until:2007-06-19.
+-2018-09-12 23:11:56,740-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2007-06-19 until:2008-02-02.
+-2018-09-12 23:11:56,740-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2009-05-03 until:2009-12-17.
+-2018-09-12 23:14:22,850-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2006-11-03', 'healthcare since:2006-11-03 until:2007-06-19', 'healthcare since:2007-06-19 until:2008-02-02', 'healthcare since:2008-02-02 until:2008-09-17', 'healthcare since:2008-09-17 until:2009-05-03', 'healthcare since:2009-05-03 until:2009-12-17', 'healthcare since:2009-12-17 until:2010-08-02', 'healthcare since:2010-08-02 until:2011-03-18', 'healthcare since:2011-03-18 until:2011-11-01', 'healthcare since:2011-11-01 until:2012-06-16', 'healthcare since:2012-06-16 until:2013-01-29', 'healthcare since:2013-01-29 until:2013-09-14', 'healthcare since:2013-09-14 until:2014-04-30', 'healthcare since:2014-04-30 until:2014-12-14', 'healthcare since:2014-12-14 until:2015-07-30', 'healthcare since:2015-07-30 until:2016-03-14', 'healthcare since:2016-03-14 until:2016-10-28', 'healthcare since:2016-10-28 until:2017-06-13', 'healthcare since:2017-06-13 until:2018-01-27', 'healthcare since:2018-01-27 until:2018-09-12']
+-2018-09-12 23:14:22,855-twitterScraper-INFO: -- Quering healthcare since:2009-05-03 until:2009-12-17
+-2018-09-12 23:14:22,857-twitterScraper-INFO: -- Quering healthcare since:2011-11-01 until:2012-06-16
+-2018-09-12 23:14:22,853-twitterScraper-INFO: -- Quering healthcare since:2006-11-03 until:2007-06-19
+-2018-09-12 23:14:22,854-twitterScraper-INFO: -- Quering healthcare since:2008-02-02 until:2008-09-17
+-2018-09-12 23:14:22,855-twitterScraper-INFO: -- Quering healthcare since:2009-12-17 until:2010-08-02
+-2018-09-12 23:14:22,856-twitterScraper-INFO: -- Quering healthcare since:2011-03-18 until:2011-11-01
+-2018-09-12 23:14:22,859-twitterScraper-INFO: -- Quering healthcare since:2016-10-28 until:2017-06-13
+-2018-09-12 23:14:22,858-twitterScraper-INFO: -- Quering healthcare since:2014-04-30 until:2014-12-14
+-2018-09-12 23:14:22,855-twitterScraper-INFO: -- Quering healthcare since:2010-08-02 until:2011-03-18
+-2018-09-12 23:14:22,852-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2006-11-03
+-2018-09-12 23:14:22,857-twitterScraper-INFO: -- Quering healthcare since:2013-01-29 until:2013-09-14
+-2018-09-12 23:14:22,855-twitterScraper-INFO: -- Quering healthcare since:2008-09-17 until:2009-05-03
+-2018-09-12 23:14:22,854-twitterScraper-INFO: -- Quering healthcare since:2007-06-19 until:2008-02-02
+-2018-09-12 23:14:22,859-twitterScraper-INFO: -- Quering healthcare since:2015-07-30 until:2016-03-14
+-2018-09-12 23:14:22,857-twitterScraper-INFO: -- Quering healthcare since:2012-06-16 until:2013-01-29
+-2018-09-12 23:14:22,860-twitterScraper-INFO: -- Quering healthcare since:2017-06-13 until:2018-01-27
+-2018-09-12 23:14:22,859-twitterScraper-INFO: -- Quering healthcare since:2016-03-14 until:2016-10-28
+-2018-09-12 23:14:22,860-twitterScraper-INFO: -- Quering healthcare since:2018-01-27 until:2018-09-12
+-2018-09-12 23:14:22,858-twitterScraper-INFO: -- Quering healthcare since:2014-12-14 until:2015-07-30
+-2018-09-12 23:14:22,857-twitterScraper-INFO: -- Quering healthcare since:2013-09-14 until:2014-04-30
+-2018-09-12 23:15:02,783-twitterScraper-INFO: Program interrupted by user. Returning all tweets gathered so far.
+-2018-09-12 23:15:02,785-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:15:02,785-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:15:02,784-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:15:02,786-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:15:02,785-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:15:02,785-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:15:02,783-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:15:02,784-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:15:02,785-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:15:02,785-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:15:02,785-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:15:02,785-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:15:02,784-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:15:02,784-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:15:02,785-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:15:02,785-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:15:02,783-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:15:02,785-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:15:02,785-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:15:02,784-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:15:02,794-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2011-11-01 until:2012-06-16.
+-2018-09-12 23:15:02,798-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2011-03-18 until:2011-11-01.
+-2018-09-12 23:15:02,799-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2016-03-14 until:2016-10-28.
+-2018-09-12 23:15:02,799-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2006-11-03 until:2007-06-19.
+-2018-09-12 23:15:02,800-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2009-05-03 until:2009-12-17.
+-2018-09-12 23:15:02,798-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2014-04-30 until:2014-12-14.
+-2018-09-12 23:15:02,799-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2016-10-28 until:2017-06-13.
+-2018-09-12 23:15:02,802-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2006-03-21 until:2006-11-03.
+-2018-09-12 23:15:02,800-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2009-12-17 until:2010-08-02.
+-2018-09-12 23:15:02,801-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2017-06-13 until:2018-01-27.
+-2018-09-12 23:15:02,797-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2015-07-30 until:2016-03-14.
+-2018-09-12 23:15:02,801-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2007-06-19 until:2008-02-02.
+-2018-09-12 23:15:02,802-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2010-08-02 until:2011-03-18.
+-2018-09-12 23:15:02,800-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2013-01-29 until:2013-09-14.
+-2018-09-12 23:15:02,799-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2008-02-02 until:2008-09-17.
+-2018-09-12 23:15:02,800-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2012-06-16 until:2013-01-29.
+-2018-09-12 23:15:02,804-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2013-09-14 until:2014-04-30.
+-2018-09-12 23:15:02,802-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2014-12-14 until:2015-07-30.
+-2018-09-12 23:15:02,806-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2008-09-17 until:2009-05-03.
+-2018-09-12 23:15:14,010-twitterScraper-INFO: Query done, Got 420 tweets for healthcare since:2018-01-27 until:2018-09-12.
+-2018-09-12 23:15:49,788-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2006-11-03', 'healthcare since:2006-11-03 until:2007-06-19', 'healthcare since:2007-06-19 until:2008-02-02', 'healthcare since:2008-02-02 until:2008-09-17', 'healthcare since:2008-09-17 until:2009-05-03', 'healthcare since:2009-05-03 until:2009-12-17', 'healthcare since:2009-12-17 until:2010-08-02', 'healthcare since:2010-08-02 until:2011-03-18', 'healthcare since:2011-03-18 until:2011-11-01', 'healthcare since:2011-11-01 until:2012-06-16', 'healthcare since:2012-06-16 until:2013-01-29', 'healthcare since:2013-01-29 until:2013-09-14', 'healthcare since:2013-09-14 until:2014-04-30', 'healthcare since:2014-04-30 until:2014-12-14', 'healthcare since:2014-12-14 until:2015-07-30', 'healthcare since:2015-07-30 until:2016-03-14', 'healthcare since:2016-03-14 until:2016-10-28', 'healthcare since:2016-10-28 until:2017-06-13', 'healthcare since:2017-06-13 until:2018-01-27', 'healthcare since:2018-01-27 until:2018-09-12']
+-2018-09-12 23:15:49,793-twitterScraper-INFO: -- Quering healthcare since:2007-06-19 until:2008-02-02
+-2018-09-12 23:15:49,804-twitterScraper-INFO: -- Quering healthcare since:2014-12-14 until:2015-07-30
+-2018-09-12 23:15:49,803-twitterScraper-INFO: -- Quering healthcare since:2014-04-30 until:2014-12-14
+-2018-09-12 23:15:49,796-twitterScraper-INFO: -- Quering healthcare since:2009-05-03 until:2009-12-17
+-2018-09-12 23:15:49,804-twitterScraper-INFO: -- Quering healthcare since:2015-07-30 until:2016-03-14
+-2018-09-12 23:15:49,798-twitterScraper-INFO: -- Quering healthcare since:2009-12-17 until:2010-08-02
+-2018-09-12 23:15:49,802-twitterScraper-INFO: -- Quering healthcare since:2013-01-29 until:2013-09-14
+-2018-09-12 23:15:49,795-twitterScraper-INFO: -- Quering healthcare since:2008-09-17 until:2009-05-03
+-2018-09-12 23:15:49,792-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2006-11-03
+-2018-09-12 23:15:49,802-twitterScraper-INFO: -- Quering healthcare since:2013-09-14 until:2014-04-30
+-2018-09-12 23:15:49,800-twitterScraper-INFO: -- Quering healthcare since:2011-11-01 until:2012-06-16
+-2018-09-12 23:15:49,805-twitterScraper-INFO: -- Quering healthcare since:2016-03-14 until:2016-10-28
+-2018-09-12 23:15:49,805-twitterScraper-INFO: -- Quering healthcare since:2016-10-28 until:2017-06-13
+-2018-09-12 23:15:49,799-twitterScraper-INFO: -- Quering healthcare since:2011-03-18 until:2011-11-01
+-2018-09-12 23:15:49,796-twitterScraper-INFO: -- Quering healthcare since:2008-02-02 until:2008-09-17
+-2018-09-12 23:15:49,793-twitterScraper-INFO: -- Quering healthcare since:2006-11-03 until:2007-06-19
+-2018-09-12 23:15:49,798-twitterScraper-INFO: -- Quering healthcare since:2010-08-02 until:2011-03-18
+-2018-09-12 23:15:49,802-twitterScraper-INFO: -- Quering healthcare since:2012-06-16 until:2013-01-29
+-2018-09-12 23:15:49,806-twitterScraper-INFO: -- Quering healthcare since:2017-06-13 until:2018-01-27
+-2018-09-12 23:15:49,806-twitterScraper-INFO: -- Quering healthcare since:2018-01-27 until:2018-09-12
+-2018-09-12 23:19:37,150-twitterScraper-INFO: Program interrupted by user. Returning all tweets gathered so far.
+-2018-09-12 23:19:37,151-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:19:37,151-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:19:37,150-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:19:37,150-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:19:37,151-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:19:37,151-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:19:37,151-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:19:37,150-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:19:37,151-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:19:37,151-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:19:37,150-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:19:37,151-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:19:37,150-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:19:37,150-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:19:37,151-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:19:37,151-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:19:37,151-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:19:37,151-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:19:37,155-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:19:37,150-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:19:37,317-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2012-06-16 until:2013-01-29.
+-2018-09-12 23:19:37,359-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2007-06-19 until:2008-02-02.
+-2018-09-12 23:19:37,360-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2006-11-03 until:2007-06-19.
+-2018-09-12 23:19:37,370-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2015-07-30 until:2016-03-14.
+-2018-09-12 23:19:37,371-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2008-02-02 until:2008-09-17.
+-2018-09-12 23:19:37,374-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2010-08-02 until:2011-03-18.
+-2018-09-12 23:19:37,383-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2017-06-13 until:2018-01-27.
+-2018-09-12 23:19:37,384-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2016-10-28 until:2017-06-13.
+-2018-09-12 23:19:37,385-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2014-12-14 until:2015-07-30.
+-2018-09-12 23:19:37,385-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2013-01-29 until:2013-09-14.
+-2018-09-12 23:19:37,385-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2014-04-30 until:2014-12-14.
+-2018-09-12 23:19:37,386-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2006-03-21 until:2006-11-03.
+-2018-09-12 23:19:37,385-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2013-09-14 until:2014-04-30.
+-2018-09-12 23:19:37,386-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2009-05-03 until:2009-12-17.
+-2018-09-12 23:19:37,397-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2011-11-01 until:2012-06-16.
+-2018-09-12 23:19:37,403-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2009-12-17 until:2010-08-02.
+-2018-09-12 23:19:37,403-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2011-03-18 until:2011-11-01.
+-2018-09-12 23:19:37,403-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2016-03-14 until:2016-10-28.
+-2018-09-12 23:19:37,403-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2008-09-17 until:2009-05-03.
+-2018-09-12 23:20:52,761-twitterScraper-INFO: Query done, Got 2520 tweets for healthcare since:2018-01-27 until:2018-09-12.
+-2018-09-12 23:23:07,701-twitterScraper-INFO: -- Queries : ['healthcare since:2006-03-21 until:2006-11-03', 'healthcare since:2006-11-03 until:2007-06-19', 'healthcare since:2007-06-19 until:2008-02-02', 'healthcare since:2008-02-02 until:2008-09-17', 'healthcare since:2008-09-17 until:2009-05-03', 'healthcare since:2009-05-03 until:2009-12-17', 'healthcare since:2009-12-17 until:2010-08-02', 'healthcare since:2010-08-02 until:2011-03-18', 'healthcare since:2011-03-18 until:2011-11-01', 'healthcare since:2011-11-01 until:2012-06-16', 'healthcare since:2012-06-16 until:2013-01-29', 'healthcare since:2013-01-29 until:2013-09-14', 'healthcare since:2013-09-14 until:2014-04-30', 'healthcare since:2014-04-30 until:2014-12-14', 'healthcare since:2014-12-14 until:2015-07-30', 'healthcare since:2015-07-30 until:2016-03-14', 'healthcare since:2016-03-14 until:2016-10-28', 'healthcare since:2016-10-28 until:2017-06-13', 'healthcare since:2017-06-13 until:2018-01-27', 'healthcare since:2018-01-27 until:2018-09-12']
+-2018-09-12 23:23:07,704-twitterScraper-INFO: -- Quering healthcare since:2006-03-21 until:2006-11-03
+-2018-09-12 23:23:07,711-twitterScraper-INFO: -- Quering healthcare since:2015-07-30 until:2016-03-14
+-2018-09-12 23:23:07,706-twitterScraper-INFO: -- Quering healthcare since:2008-02-02 until:2008-09-17
+-2018-09-12 23:23:07,710-twitterScraper-INFO: -- Quering healthcare since:2013-09-14 until:2014-04-30
+-2018-09-12 23:23:07,708-twitterScraper-INFO: -- Quering healthcare since:2011-03-18 until:2011-11-01
+-2018-09-12 23:23:07,705-twitterScraper-INFO: -- Quering healthcare since:2006-11-03 until:2007-06-19
+-2018-09-12 23:23:07,712-twitterScraper-INFO: -- Quering healthcare since:2014-04-30 until:2014-12-14
+-2018-09-12 23:23:07,709-twitterScraper-INFO: -- Quering healthcare since:2012-06-16 until:2013-01-29
+-2018-09-12 23:23:07,709-twitterScraper-INFO: -- Quering healthcare since:2013-01-29 until:2013-09-14
+-2018-09-12 23:23:07,711-twitterScraper-INFO: -- Quering healthcare since:2016-03-14 until:2016-10-28
+-2018-09-12 23:23:07,708-twitterScraper-INFO: -- Quering healthcare since:2010-08-02 until:2011-03-18
+-2018-09-12 23:23:07,706-twitterScraper-INFO: -- Quering healthcare since:2008-09-17 until:2009-05-03
+-2018-09-12 23:23:07,709-twitterScraper-INFO: -- Quering healthcare since:2011-11-01 until:2012-06-16
+-2018-09-12 23:23:07,706-twitterScraper-INFO: -- Quering healthcare since:2009-05-03 until:2009-12-17
+-2018-09-12 23:23:07,708-twitterScraper-INFO: -- Quering healthcare since:2009-12-17 until:2010-08-02
+-2018-09-12 23:23:07,713-twitterScraper-INFO: -- Quering healthcare since:2017-06-13 until:2018-01-27
+-2018-09-12 23:23:07,705-twitterScraper-INFO: -- Quering healthcare since:2007-06-19 until:2008-02-02
+-2018-09-12 23:23:07,713-twitterScraper-INFO: -- Quering healthcare since:2016-10-28 until:2017-06-13
+-2018-09-12 23:23:07,715-twitterScraper-INFO: -- Quering healthcare since:2018-01-27 until:2018-09-12
+-2018-09-12 23:23:07,711-twitterScraper-INFO: -- Quering healthcare since:2014-12-14 until:2015-07-30
+-2018-09-12 23:23:32,055-twitterScraper-INFO: Program interrupted by user. Returning all tweets gathered so far.
+-2018-09-12 23:23:32,056-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:23:32,055-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:23:32,055-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:23:32,056-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:23:32,056-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:23:32,056-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:23:32,055-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:23:32,055-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:23:32,056-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:23:32,056-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:23:32,056-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:23:32,057-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:23:32,056-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:23:32,056-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:23:32,056-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:23:32,055-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:23:32,056-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:23:32,057-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:23:32,056-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:23:32,057-twitterScraper-INFO: Program interrupted by user. Returning tweets gathered so far...
+-2018-09-12 23:23:32,186-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2014-12-14 until:2015-07-30.
+-2018-09-12 23:23:32,210-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2016-10-28 until:2017-06-13.
+-2018-09-12 23:23:32,209-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2011-11-01 until:2012-06-16.
+-2018-09-12 23:23:32,210-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2013-09-14 until:2014-04-30.
+-2018-09-12 23:23:32,252-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2006-11-03 until:2007-06-19.
+-2018-09-12 23:23:32,252-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2008-02-02 until:2008-09-17.
+-2018-09-12 23:23:32,252-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2016-03-14 until:2016-10-28.
+-2018-09-12 23:23:32,253-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2013-01-29 until:2013-09-14.
+-2018-09-12 23:23:32,254-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2008-09-17 until:2009-05-03.
+-2018-09-12 23:23:32,254-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2006-03-21 until:2006-11-03.
+-2018-09-12 23:23:32,255-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2015-07-30 until:2016-03-14.
+-2018-09-12 23:23:32,289-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2012-06-16 until:2013-01-29.
+-2018-09-12 23:23:32,289-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2014-04-30 until:2014-12-14.
+-2018-09-12 23:23:32,290-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2011-03-18 until:2011-11-01.
+-2018-09-12 23:23:32,290-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2017-06-13 until:2018-01-27.
+-2018-09-12 23:23:32,293-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2009-05-03 until:2009-12-17.
+-2018-09-12 23:23:32,311-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2007-06-19 until:2008-02-02.
+-2018-09-12 23:23:32,314-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2010-08-02 until:2011-03-18.
+-2018-09-12 23:23:32,319-twitterScraper-INFO: Query done, Got 0 tweets for healthcare since:2009-12-17 until:2010-08-02.
+-2018-09-12 23:23:39,209-twitterScraper-INFO: Query done, Got 280 tweets for healthcare since:2018-01-27 until:2018-09-12.
+-2018-09-12 23:26:38,164-twitterScraper-INFO: -- Queries : ['health since:2006-03-21 until:2006-11-03', 'health since:2006-11-03 until:2007-06-19', 'health since:2007-06-19 until:2008-02-02', 'health since:2008-02-02 until:2008-09-17', 'health since:2008-09-17 until:2009-05-03', 'health since:2009-05-03 until:2009-12-17', 'health since:2009-12-17 until:2010-08-02', 'health since:2010-08-02 until:2011-03-18', 'health since:2011-03-18 until:2011-11-01', 'health since:2011-11-01 until:2012-06-16', 'health since:2012-06-16 until:2013-01-29', 'health since:2013-01-29 until:2013-09-14', 'health since:2013-09-14 until:2014-04-30', 'health since:2014-04-30 until:2014-12-14', 'health since:2014-12-14 until:2015-07-30', 'health since:2015-07-30 until:2016-03-14', 'health since:2016-03-14 until:2016-10-28', 'health since:2016-10-28 until:2017-06-13', 'health since:2017-06-13 until:2018-01-27', 'health since:2018-01-27 until:2018-09-12']
+-2018-09-12 23:26:38,167-twitterScraper-INFO: -- Quering health since:2006-03-21 until:2006-11-03
+-2018-09-12 23:26:38,176-twitterScraper-INFO: -- Quering health since:2014-04-30 until:2014-12-14
+-2018-09-12 23:26:38,171-twitterScraper-INFO: -- Quering health since:2008-02-02 until:2008-09-17
+-2018-09-12 23:26:38,175-twitterScraper-INFO: -- Quering health since:2012-06-16 until:2013-01-29
+-2018-09-12 23:26:38,176-twitterScraper-INFO: -- Quering health since:2013-09-14 until:2014-04-30
+-2018-09-12 23:26:38,178-twitterScraper-INFO: -- Quering health since:2014-12-14 until:2015-07-30
+-2018-09-12 23:26:38,170-twitterScraper-INFO: -- Quering health since:2007-06-19 until:2008-02-02
+-2018-09-12 23:26:38,175-twitterScraper-INFO: -- Quering health since:2010-08-02 until:2011-03-18
+-2018-09-12 23:26:38,172-twitterScraper-INFO: -- Quering health since:2008-09-17 until:2009-05-03
+-2018-09-12 23:26:38,168-twitterScraper-INFO: -- Quering health since:2006-11-03 until:2007-06-19
+-2018-09-12 23:26:38,176-twitterScraper-INFO: -- Quering health since:2013-01-29 until:2013-09-14
+-2018-09-12 23:26:38,182-twitterScraper-INFO: -- Quering health since:2016-03-14 until:2016-10-28
+-2018-09-12 23:26:38,172-twitterScraper-INFO: -- Quering health since:2009-05-03 until:2009-12-17
+-2018-09-12 23:26:38,172-twitterScraper-INFO: -- Quering health since:2009-12-17 until:2010-08-02
+-2018-09-12 23:26:38,174-twitterScraper-INFO: -- Quering health since:2011-03-18 until:2011-11-01
+-2018-09-12 23:26:38,180-twitterScraper-INFO: -- Quering health since:2017-06-13 until:2018-01-27
+-2018-09-12 23:26:38,178-twitterScraper-INFO: -- Quering health since:2015-07-30 until:2016-03-14
+-2018-09-12 23:26:38,174-twitterScraper-INFO: -- Quering health since:2011-11-01 until:2012-06-16
+-2018-09-12 23:26:38,182-twitterScraper-INFO: -- Quering health since:2018-01-27 until:2018-09-12
+-2018-09-12 23:26:38,181-twitterScraper-INFO: -- Quering health since:2016-10-28 until:2017-06-13
