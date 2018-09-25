@@ -44,6 +44,8 @@ if __name__ == '__main__':
     else:
         count = len(addresses)
     logging.info('---- %s properties to go', count)
+    logging.info('---- %s useless id and %s crawled',
+                 len(useless_id), len(exist_id))
     crawled_cnt = 0
     for i, address in addresses.items():
         if i not in exist_id and i not in useless_id and crawled_cnt <= count:
@@ -51,7 +53,8 @@ if __name__ == '__main__':
                 logging.debug('---- Getting id: %s', i)
                 url = crawler.search(address, url=True)
                 if not url:
-                    db.useless.insert_one({'_id': i, 'reason': 'No result'})
+                    db.useless.insert_one(
+                        {'_id': i, 'reason': 'No result', 'address': address})
                     time.sleep(0.2)
                     continue
                 detail = crawler.parse()

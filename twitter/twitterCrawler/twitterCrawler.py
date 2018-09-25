@@ -13,6 +13,7 @@ from multiprocessing.pool import Pool
 import time
 import requests
 import numpy as np
+from OpenSSL.SSL import SysCallError
 from twitterCrawler.tsLogger import logger
 from twitterCrawler.Tweet import Tweet
 from utilies.mysqlConnection import mysqlconnector
@@ -83,7 +84,9 @@ def query_single_page(
             return tweets, tweets[-1].id
         else:
             return tweets, "TWEET-{}-{}".format(tweets[-1].id, tweets[0].id)
-
+    except SysCallError as e:
+        logger.exception('SysCallrror {} while requesting "{}"'.format(
+            e, url))
     except requests.exceptions.HTTPError as e:
         logger.exception('HTTPError {} while requesting "{}"'.format(
             e, url))
@@ -99,7 +102,7 @@ def query_single_page(
 
     if retry > 0:
         logger.info('Retrying... (Attempts left: {})'.format(retry))
-        return query_single_page(url, html_response, retry-1)
+        return query_single_page(url, html_response, retry=retry-1)
 
     logger.error('Giving up.')
     return [], None
@@ -179,7 +182,6 @@ def query_tweets_once_generator(query, limit=None, lang='', db=False, kw=''):
                 logger.info('Limit reached, Got {} tweets for {}.'.format(
                     num_tweets, query))
                 break
-            time.sleep(1)
         mysqldb.insert(tweets)
         return
 

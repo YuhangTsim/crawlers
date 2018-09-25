@@ -58,7 +58,7 @@ class Redfin():
 
     def parse(self):
         """
-        Get facts
+        Get facts and details
         """
         result = {}
         if self.detail_statu:

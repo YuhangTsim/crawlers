@@ -5,6 +5,9 @@ Implementing class for db insertion
 import os
 import logging
 import MySQLdb
+import warnings
+
+warnings.filterwarnings('error', category=MySQLdb.Warning)
 
 
 class mysqlconnector():
@@ -66,6 +69,8 @@ class mysqlconnector():
             try:
                 self.cursor.execute(sql)
                 self.conn.commit()
+            except Warning as w:
+                self.debug('Warning: %s', e)
             except Exception as e:
                 self.logger.exception('---- Exception: %s, %s', e, info)
                 self.conn.rollback()
